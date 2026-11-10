@@ -1,0 +1,9 @@
+species,construct,zinc,template,job_a,job_b,rmsd_A
+human,mature,Zn,noTemplate,hum_mature30_511_dimer_zn_notemplate_s101,hum_mature30_511_dimer_zn_notemplate_s202,0.29
+human,mature,Zn,template,hum_mature30_511_dimer_zn_s101,hum_mature30_511_dimer_zn_s202,0.29
+human,mature,Zn,template,hum_mature30_511_dimer_zn_s101,hum_mature30_511_dimer_zn_s303,0.28
+human,mature,Zn,template,hum_mature30_511_dimer_zn_s202,hum_mature30_511_dimer_zn_s303,0.27
+pig,mature,Zn,noTemplate,pig_mature25_510_dimer_zn_notemplate_s101,pig_mature25_510_dimer_zn_notemplate_s202,0.53
+pig,mature,Zn,template,pig_mature25_510_dimer_zn_s101,pig_mature25_510_dimer_zn_s202,0.55
+pig,mature,Zn,template,pig_mature25_510_dimer_zn_s101,pig_mature25_510_dimer_zn_s303,0.57
+pig,mature,Zn,template,pig_mature25_510_dimer_zn_s202,pig_mature25_510_dimer_zn_s303,0.22

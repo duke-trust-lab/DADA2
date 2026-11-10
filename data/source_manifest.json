@@ -1,0 +1,56 @@
+[
+  {
+    "file": "sequences/human_ADA2_Q9NZK5.fasta",
+    "source_url": "https://rest.uniprot.org/uniprotkb/Q9NZK5.fasta",
+    "retrieved_utc": "2026-10-15T15:56:37.931551+00:00",
+    "resolved_url": "https://rest.uniprot.org/uniprotkb/Q9NZK5.fasta",
+    "status": "downloaded",
+    "bytes": 606,
+    "sha256": "18b24aed29574fc708fede8eba2c0d10de61061a7d3ffd79bd186702ba31f2bf"
+  },
+  {
+    "file": "annotations/human_ADA2_Q9NZK5.json",
+    "source_url": "https://rest.uniprot.org/uniprotkb/Q9NZK5.json",
+    "retrieved_utc": "2026-10-15T15:56:37.932374+00:00",
+    "resolved_url": "https://rest.uniprot.org/uniprotkb/Q9NZK5.json",
+    "status": "downloaded",
+    "bytes": 60435,
+    "sha256": "9f6160f02d6a87565f689d96666cb53cbd5d6151901f4eba8b188b3dd144175a"
+  },
+  {
+    "file": "sequences/pig_ADA2_P58780.fasta",
+    "source_url": "https://rest.uniprot.org/uniprotkb/P58780.fasta",
+    "retrieved_utc": "2026-10-15T15:56:37.932525+00:00",
+    "resolved_url": "https://rest.uniprot.org/uniprotkb/P58780.fasta",
+    "status": "downloaded",
+    "bytes": 601,
+    "sha256": "41d8ecf032b48611d2205c82370c419ddc62b0140357099d47c7db9e5b0c070a"
+  },
+  {
+    "file": "annotations/pig_ADA2_P58780.json",
+    "source_url": "https://rest.uniprot.org/uniprotkb/P58780.json",
+    "retrieved_utc": "2026-10-15T15:56:37.932628+00:00",
+    "resolved_url": "https://rest.uniprot.org/uniprotkb/P58780.json",
+    "status": "downloaded",
+    "bytes": 14276,
+    "sha256": "54f4fbcfd5f3be3bde0763f4a29ca0f1e0682a976dc0d22e3f1f2d75a3e69c48"
+  },
+  {
+    "file": "structures/human_ADA2_3LGD_assembly1.cif",
+    "source_url": "https://files.rcsb.org/download/3LGD-assembly1.cif.gz",
+    "retrieved_utc": "2026-10-15T15:56:38.732834+00:00",
+    "resolved_url": "https://files.rcsb.org/download/3LGD-assembly1.cif.gz",
+    "status": "downloaded",
+    "bytes": 969777,
+    "sha256": "e2f95224052ccde33bb82c3e04ebe40ac7379497efc494f36529971c7757776c"
+  },
+  {
+    "file": "structures/human_ADA2_coformycin_3LGG_assembly1.cif",
+    "source_url": "https://files.rcsb.org/download/3LGG-assembly1.cif.gz",
+    "retrieved_utc": "2026-10-15T15:56:38.771738+00:00",
+    "resolved_url": "https://files.rcsb.org/download/3LGG-assembly1.cif.gz",
+    "status": "downloaded",
+    "bytes": 889001,
+    "sha256": "15edf6925e00cad5a19644bd87b959a1e17545342daefd6bfef2e109e6fa4a5c"
+  }
+]

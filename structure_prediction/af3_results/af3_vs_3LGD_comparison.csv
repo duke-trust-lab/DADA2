@@ -1,0 +1,13 @@
+job,species,zinc,template,seed,rmsd_dimer,rmsd_chainA_alone,rmsd_chainB_after_Afit,n_ca,n_if_model,n_if_3LGD,interface_jaccard,zn_ligand_max_dist
+hum_mature30_511_dimer_nozn_s101,human,noZn,template,101,0.46,0.45,0.6,962,45,46,0.78,
+hum_mature30_511_dimer_zn_notemplate_s101,human,Zn,noTemplate,101,0.45,0.44,0.54,962,46,46,0.8,2.23
+hum_mature30_511_dimer_zn_notemplate_s202,human,Zn,noTemplate,202,0.43,0.4,0.49,962,45,46,0.86,2.19
+hum_mature30_511_dimer_zn_s101,human,Zn,template,101,0.46,0.44,0.59,962,45,46,0.78,2.23
+hum_mature30_511_dimer_zn_s202,human,Zn,template,202,0.45,0.42,0.52,962,42,46,0.8,2.16
+hum_mature30_511_dimer_zn_s303,human,Zn,template,303,0.46,0.41,0.71,962,45,46,0.86,2.29
+pig_mature25_510_dimer_nozn_s101,pig,noZn,template,101,1.15,0.73,2.01,962,45,46,0.78,
+pig_mature25_510_dimer_zn_notemplate_s101,pig,Zn,noTemplate,101,1.28,0.77,2.29,962,50,46,0.75,2.25
+pig_mature25_510_dimer_zn_notemplate_s202,pig,Zn,noTemplate,202,1.25,0.81,2.2,962,47,46,0.72,2.17
+pig_mature25_510_dimer_zn_s101,pig,Zn,template,101,1.15,0.74,2.0,962,45,46,0.78,2.32
+pig_mature25_510_dimer_zn_s202,pig,Zn,template,202,1.1,0.74,1.84,962,49,46,0.76,2.25
+pig_mature25_510_dimer_zn_s303,pig,Zn,template,303,1.14,0.79,1.93,962,47,46,0.72,2.19

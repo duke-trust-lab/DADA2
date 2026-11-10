@@ -1,0 +1,39 @@
+{
+  "_comment": "Edit this file, not the code. Formal runs are refused until 'frozen' is true, the model is set, and the draft text files are final. Pilot runs are allowed any time.",
+  "frozen": false,
+  "prompt_version": "v0.1_DRAFT",
+
+  "model": "gpt-6-astra",
+  "reasoning_effort": "medium",
+  "max_output_tokens": 16000,
+  "use_json_schema": true,
+
+  "max_hypotheses": 3,
+  "repeats": 3,
+  "shuffle_seed": 20261104,
+  "retry_on_transport_error": 1,
+  "max_input_tokens_warning": 100000,
+
+  "pricing_usd_per_million_tokens": {"input": null, "output": null},
+
+  "files": {
+    "system_prompt": "prompts/system_prompt_v0.1_DRAFT.md",
+    "task_prompt": "prompts/task_prompt_v0.1_DRAFT.md",
+    "output_schema": "prompts/output_schema.json",
+    "shared_context": "context/shared_context_v0.1_DRAFT.md"
+  },
+
+  "evidence_files": {
+    "sequence": "evidence/sequence_evidence_A1.md",
+    "surface": "evidence/surface_evidence_A2.md",
+    "structure": "evidence/structure_evidence_A3.md"
+  },
+
+  "conditions": {
+    "A0": [],
+    "A1": ["sequence"],
+    "A2": ["surface"],
+    "A3": ["structure"],
+    "A4": ["sequence", "surface", "structure"]
+  }
+}

@@ -1,0 +1,17 @@
+# secrets
+.env
+*.env
+!.env.example
+
+# environments and caches
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# large raw AlphaFold downloads (~0.9 GB); see structure_prediction/README.md
+structure_prediction/af3_outputs/
+
+# fake-model test runs
+llm_runner/runs_mock/
