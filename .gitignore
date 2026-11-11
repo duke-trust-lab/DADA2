@@ -15,3 +15,4 @@ structure_prediction/af3_outputs/
 
 # fake-model test runs
 llm_runner/runs_mock/
+surface_analysis/apbs_outputs/*.dx
