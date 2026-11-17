@@ -2,17 +2,33 @@
  "seed": 20261104,
  "order": [
   [
+   "A0",
+   1
+  ],
+  [
    "A3",
    1
   ],
   [
+   "A3",
+   2
+  ],
+  [
    "A0",
-   1
+   3
+  ],
+  [
+   "A0",
+   2
+  ],
+  [
+   "A3",
+   3
   ]
  ],
  "config": {
-  "frozen": false,
-  "prompt_version": "v0.1_DRAFT",
+  "frozen": true,
+  "prompt_version": "v1.0",
   "model": "gpt-6-astra",
   "reasoning_effort": "medium",
   "max_output_tokens": 16000,
@@ -27,10 +43,10 @@
    "output": null
   },
   "files": {
-   "system_prompt": "prompts/system_prompt_v0.1_DRAFT.md",
-   "task_prompt": "prompts/task_prompt_v0.1_DRAFT.md",
+   "system_prompt": "prompts/system_prompt_v1.0.md",
+   "task_prompt": "prompts/task_prompt_v1.0.md",
    "output_schema": "prompts/output_schema.json",
-   "shared_context": "context/shared_context_v0.1_DRAFT.md"
+   "shared_context": "context/shared_context_v1.0.md"
   },
   "evidence_files": {
    "sequence": "evidence/sequence_evidence_A1.md",

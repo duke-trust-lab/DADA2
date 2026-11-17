@@ -1,0 +1,210 @@
+{
+ "id": "resp_00f9ab6f2df65306006afba69e694887d2822d04fdc0aba652",
+ "access_programs": {
+  "cyber": "standard"
+ },
+ "created_at": 1794877086.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": null,
+ "metadata": {},
+ "model": "gpt-6-astra",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_00f9ab6f2df65306006afba69f967487d29f4f6f3efdd50cf5",
+   "summary": [],
+   "type": "reasoning",
+   "content": [],
+   "encrypted_content": "gAAAAABq-6baO04v05Y4DIArtYKkDfbjj0CGl00w5uS_RBspug8pVd-mwDEKPPSUapuBmeJndBtbH2pCe5TZOkrs-B4JrQKQLYwv-JxpAsDhIrzeTQlY6TeEgAo9YaHAWU93W5rVwazjYquRWRvBVIgFrRxZ89wRZSqP3O__kAB8lchtNvTlnk7cHnz4nvDvEaiWvu0dUiSE_LaG5ymbHFToMuU9r8nKx-KD75CccxuqjVQ3Dnp50l4_YKDesWUeXXUxQ1YhUZiIvesI4kMRlvJkQO4yj6yp49HhvHp1S9QIlNZVDfm1NbPNBpdfSe2eTMzPrvFRRhDJ8KGFIIH0SQg7D-lIMOG_CAwqppNmk8juHbM6nxmcQFDX0SIzlNp6KekBOY8ff_qYHgkznZhj-AhaIMDKpMFc8064rn7ANZJrPjFEvXin_CdALk1Z_HKTX4K4zn6Xemr0RlWpDkLuCXNnW3dp-NWRihcHPoqaxZSna6wCb7RpU7_QKSCRPDddnu2rOd6o8qooX62VKVzgxrpw2ueFUj68Osswmy926qCbNprML_NZ1GJSlSOwE5Mx2r-BKKIvvpjOu1P32dxuexON8whI5kinGmCSouZ2zK_oFPU_2SoE99DyyczTJ5JWWTT1MmjDeUP2KwAPOpPSJPf0M038qykQXdYzM7Pa7jwp4E-pDTNawRsvwyospiH6i4QjCg_879xxwqLAUfe-7eNW47Ov07RJHV46UsWN_T50XLR3fDqLeCY22SzGwPESBCdpqyo_J87DhJH2iXG58TwQJ5FCP80m2xfFyySmkqy2pQfT8cLOKI1RkEUcRy1ZIATzqNNzMjGb6b-kjsjZLv01DB77lDR1aMtlEp1RnCyOrdHYCRnqXuwDkQq5IJk5GzoYWvwC7c6WgAEYPNKrclu3C12srM9RM6EngxXUKaiv2MfQ2DYzQVuw7VeZ87AOawhxvNr0_xSI2w0CxfbjgGUCRBUhmyCOZUF8T59ikAzEc8MwkxDsEFH1oB6rhb5sv2uavYsQDOjxDB_V3wuKEhhl-1ri8lbYPiTSpEzFp3du0UO9tSpRKtsUEKO6EDBkdnUVltCpO-zI5aHkJchqq1GcI6VshOn_a0W2E5sj8Xk06Yv5hqBNqmH8xI-dKDxIuxwvw4ffuTlExO_uYxBnjyEVte0B7PPHBLZANmfRsaqrONnDU9SU3MwvTM4TQVJMhVTDXzZQPBPJrWlcl3J_y2iMSXHfSuIOlVaaYCfLF486-PXx032GuHL5xVrcG-CtzcD__MvIngFU01McDWAeIefOW4IwJPERll1oK0YsfDAH9tH30VL0yIpXR7Uzaei1JyfeX2SLRIngeTBq78DbxitQaWd2naip6hNqiPZdhXSUp6ySZ8RBysOzhik5E9lPZx9dmOkSZcqlv2PE8TSV5MY7FPsJfPRDEpNbZFTTC6fja_gtKnl4NqKzzHKd_BmGi6NppZM1QZE_4hcnH3c4HKad3Hgw3Ntlr9NJJtSOZqYxeQaeAa6iQ8KkGyClNrcpOrq4B3iT72oTUPWcS4tPUh-4VJUrIx5zqsKNWQtU0GWAxOZTfCdHY7ynhbYt1PahMX9_tjvoT3puIdzb5gRo85lFg-yU0cxMA6XE2y2BX4saEkteNWX3KfI9ak4zIrwWLroXmdGfzdN4i9FkzWwK6cBWs-M1moQI5FhB2xJJUtiCKahZQ8y6p5FfxIZSv1204w9xIv-bkMI9soez7PUGlbmHzZtqgnpuqBdxN6EV0I9zm3YLbNUjdNcvf_yBnAsuwaJOj3rTRMYS5AiVgaHKBXyFJWDtJJn6O4w_woce2uiuDoPRQH4GmtTkX-WN16zJmsyD4sYWebhRFUkF8grhcNNOaWcYYti_aQ0VxGmw8bcxPdD1J9kPquwMEcMh0GG8hHN3tdN-EkutRrYzZsE8WHYQvI6shaW1KjO0fitW7ZvHQXvKImuVLwL-IgBDXjofDkzU4uOT0aBXcS3gumELKRxFzFea_BXdzfYQIizAwx33er7fZpBG0cNAjqCgn3oIH0UrzkrOV0jrvg2rO3trzX4zFnI2SK70RScAinAlo2RCfNod9i7aTfjQW8RhyNWzcIJLtBqpcTUbsS3nSsCfD8-Q7zt4qRClnq3blRcNBDbhLGAZi9zryAUQnCmezFhzbwSF-Pa-MKrY3xhmhdJu6kgRMTfFFlLDKtGgaKPbyf1MIw7Xg7zlmZc0rKSdWSdyAhhVnuHDREEqaMpLWEq6rOUhR9KHVf8CHswsW0sJLayI6suH9LhBn_bFPBChPjzacmVuauz3J-1pe-Iqg6kWILoYGQ-sceU328izRQAKWntWVseUwrvaY40A8wKAW0v1dvHu_sGVEI59SKMVk0V3lWrTGwrBWFiEaU8nad6-BECsjxfif_TP-9a1szRpeBhjjy9VOEgds5Dpg7ekAo6GjhEdb0iX64qS3rz650aSjln16Okx4wBmZ8xVuS4G-RkD8Ev2YQW34sUBq1HSvfWCdgMQsrazHbSPEww8WHXjdUtCBJIIyisrec-tV1u1SHul-8XTTv0e2ummkMEP7i9sNGFhWhxK9qnKQrrxqyFYv3Zn9wEqkwjL4wTt3CDlz8VS7ZxpcVsUEvsz1q8zL6LItgDe9e8nXWjiT1e9ZDPqnw8On9ciuFbm865EiWNkMHMZAgBFmB2W9O8pFeI-2IQ5Hy0UgAy9-ltOaAcAhERYDBTqFtynSos8pDbxmc44CI7cg3W5izWS8aZqXTwKIJFlTdzGhtHnQEWbtiYb6byR1lTDnq54m6CXZsAqu6iBUd-k_TZ6pksZeBW-Q6MmFBZxZ881pZ8bzuZyTwKs0FvCcvwLcoIpHJSsWIlRvI0HWQ4yxXck8uHI0FWzd2prIgx4O_CUW2rorFwhS3ggTC_vSRR8fYeBe065mm7E8jVsLpD4-dKY_n6-k2phC2jMiAX9hafVP9iJlQFyXQ8nekFlU4JKTI7SujJm6vBK5ctTD9TezYUvsyR5wj0qVz8gE5lJH6f9Reaud_kLFOZWvhdQGbCHAhrx1_2UL_cJVWtefNXBLsOonWJOjfNW7Fd8P_nKkZLQa7ObuI5omIxWDhx-OBcAcXtE9pEDdKkhLRdkg295sjcsfRGwAyAKhfJN1J0QsxPfRHXj3j36dUob3Fhsoj-c2EL101Dbspx30OX7nI6laVnPUhGAX4E6J7KGKDFiOipqMrD8flw-QrN8H-bwXlY6zM5Hpua-Y6erewuRQHTbco5wAPbDZJDboN5FnM33ZNY-wBIGPRLZG4IOQ7KIkgiHpscSrgDtCu_SEBHkuRNrU6NBsCsg1_diN6x8LxW1LagPbxEzZV2h3XMjS67ldoiJU8Xznw-GZ8c1yEK8VZKx3ldaLJeh1HfBWypqaGqsFdnBmFLohtEo7pHhWvSl3r5iPxxl9ZKGeCcksu-YemNiTI0AIm5VN-6yOhj2eWpD3ESdFueVKVhGWQJfjChe3WctgElyiG2Oj59TSv4lYAwpcuEmZvJbUdPapbrc882mAFabrUsFHtu1bCnwWAGKMJGmYMLF45juVJwwGqqmR9ef2VLzWZbSl4X2l7VU-9pzpSwUauk-dqSt-yRUm61I9fjaITZQj9g9EZ7KCXFEqIPB4jySe0fZKCIEiUQB_JSgtAm2ZyaBEhU6VJXWTPn3-n7Lhu5QNqanL2On60_D1RI7jvCrNdS2jAtpxpeglJ8GrZfGtZPOIS35c9xBHXOrgTVfLRqX6wNRMllGypujdyIAeLQfjNSwW0_ctu88IC6eDJE2EDJPzvFkiI82cbILljtkg4xsoqVF1vciDp7YpzzwiNbl1eG0W5CPzOXQI8LnLbxWqP0zsXAlQ8JBSdGsdNLY7DB0aYyeOmRIzOqlA6e59liQ5qFtF_mWKJt6k3A71mMcrB3YjdbIipzGPT66h3DeWKEIA50-ju9Piel1Bcgy_tDnkCfqDlzwKe4oDU-KdE7iCuu7Jj4-2jUn9ty7B43TfsGxsDbgl9gSAc1brgl2FxGUY2eXZ16klaCgHJRJ5rOzTVH8IK0pfm52C2_iUhH6qzAlO5X2OI0c3btPAEPZ-WguvDrmY77S2OGVJk8PkFFV-25n_J7S295gLeTzW4809s5Zwe3F7z7mkmomHRs3Nw_5i9DbdPf8TWlEOrCXXTdfQJIUE2LYA5n7H9tkq2eRNdvvy-3hYELz8e35WRTXpMmURs5TPqrZH7TPSutvqr9dVhSl1pxfyUMI0NZxHBBp4eNirlWk7cV4CBXIjUa0zg5zGh-9H_-sJuMvgKN4bELN76Ohy5FolxzptDf9FB3x6p3blu1DFA0URwcJJA1pzZwKHRF54tbTvZ3kpjVT2dW3bfz0wK3blvV_aT83q3kgHtKVKKMI578DOWcC8vK72i8qnXJ74fcTlf78CSxZzPWDNKWLf60dbQWvNvMqPUTVhQQSU88WqdI7M3wUTB0IbyD8TUVESpm2meHwvLU7iLGZlF_Vwgw7njHGafOLm2s5tBXGt6nldR0R3XZVaq_cI0RS6ViC2UooYntQ2q8p3nAKcKtaU9VpQ07mcrq7Fh11q2B-tLrazBpuBx6Jo5e6oJ-V-bRvJDs6rHvmAf8s5uQdeJhsp7_PdSS0SnirnwGeJhT5vcvOrzEpA5LUIBLaNaIKHo_meuS9rPhQizDIR_ANhzFjdQe1XC-c_ZjwUMyQJsfyxiNvKYywx8YVLOcO5vGoGQOL0bns3MPdmyp2hCRlpOR08xYdgLBlPq7uMqNtHriz0_DP6btX1SPzVZysBSyFzdE2Wkt6RBBosMUL-2otO2ve0KUE4exNiJF7-diLQRLKQz7Gd9tLvXOZHnWeG7pHXFIprmN_-QiSY_pSlyBKtdigmrQYJT9Y82RfcdlKZs-VLEYTY9E00R06qGEddBIA-04sKZPE7tu5ChvgZye85OVMqBfwRCuV_vivxMEkGNEsIaIlpzfaE-URWKuDUN0mg6TnG_TtwzMQWGw4OALj1l0sLqeNHS8-XS8Bil19nKMK2lzHJGmaXq8-qTHq-XIS5yUcwoQKR3xgPChoGHMdUsZoBd6cJeh4NnV133u3Qx9p-GCTSqBtaLF_vodW3Ca_EGx8_xwrdVsvq5rpTBZ7beUHvIpcdVjb9IJvONj7WJ1sAYo8_7iX8jv8D7QAjUsHF3X3SSkPRRK24Px7nVn-eQwf8VMl34jybCWp7-1BV54q9duyszAxfpM0zCk8z4ByEj9MEG-WiOLvg7avr0SXWq6TJvYU0C6YKMCBBJzIgtk3QQSC-OqAC1OpMzMUue_Vm4WeoEdHKMITqla47arxdDsppxhOLFdTn_OvE6I0uNVdViaZu1A3OYGPE_Rn2_DebXvrfkV2c_K7HKh2JkuqcGivUnduda6vG1MtMR6B3R5y6kF7pXDocl3SIfpMZoVsO71h73e7OuC3BrA_lVUQ8zuhpBNcEomvGSiRdtvsz54TTpbujfxa1OHGx-bWEMSDmFPWP40lH_FG_IEiMEVuYeIg9bN8b0NmymlvlDHc4snetwz-S0RsHm8qHpqaA4ZXeLoQTS5mOyFifMXMXD5tcsMfeW8ZAleVlJn2MSn5k41wJPeKY-V0QbI4z4oapEWoEFG72tcTgsprzk1fJZ3dlp9cjND3X73FTrkRdR-INvJA07z0oiJOYOWXAj2hfm4jDmzI35pMdU14WtH8LLPhY4TlxEdt8QOIhTHm-FLxBs5Fh9Bt2sQ=",
+   "status": null
+  },
+  {
+   "id": "msg_00f9ab6f2df65306006afba6a8e40487d29b6fc3feb4b68345",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\n  \"hypotheses\": [\n    {\n      \"title\": \"1. Protein maturation or assay conditions account for much of the activity gap\",\n      \"question_and_explanation\": \"Does pig ADA2 remain less active when equivalent mature, folded protein is compared under matched conditions? The reported difference lacks assay conditions and effect size (CTX-01). Signal-peptide and glycosylation annotations differ, but actual processing and glycan occupancy are unknown (CTX-03). From general biochemical knowledge, these factors, zinc occupancy, and protein amount could change apparent activity without an intrinsic difference in catalytic chemistry.\",\n      \"supporting_evidence_ids\": [\"CTX-01\", \"CTX-03\", \"CTX-06\"],\n      \"conflicting_evidence_ids\": [],\n      \"evidence_notes\": \"These records establish uncertainty and possible confounders, not a demonstrated preparation artifact. Confident predicted dimers do not establish the folding, processing, or assembly of the experimental proteins.\",\n      \"alternative_explanation\": \"Pig ADA2 has an intrinsic sequence-dependent difference in substrate handling or dimer geometry that persists across matched preparations.\",\n      \"proposed_test\": \"Verify the actual constructs and pig sequence, then compare independently prepared human and pig ADA2 using matched expression, purification, and tags. Measure adenosine-to-inosine conversion across substrate concentrations and a shared range of assay conditions, normalized to measured intact protein amount. In parallel, characterize processing, glycosylation, folding, oligomerization, and zinc occupancy. If a preparation difference is detected, correct that factor and repeat the comparison.\",\n      \"predicted_outcome_if_true\": \"The activity gap substantially decreases after matching preparations or conditions, or activity tracks a measured maturation or quality difference rather than species alone.\",\n      \"falsifying_outcome\": \"A reproducible gap persists across independent preparations with comparable measured quality, processing, oligomerization, zinc occupancy, and protein amount, throughout the tested conditions.\",\n      \"controls_and_feasibility\": \"Include substrate-only and mock-purification controls, product standards, independent protein batches, and measurements within the initial-rate regime. Check that any processing or glycan manipulation does not itself damage folding. Recombinant-protein work and chromatography are supported by CTX-08 and CTX-09; proteomics access is described in CTX-10, but specialized characterization access and turnaround require confirmation.\",\n      \"next_decision\": \"If matching rescues activity, standardize preparation before sequence engineering. If the gap persists, advance intrinsic sequence and assembly hypotheses. If only certain conditions rescue activity, characterize that conditional difference rather than labeling pig ADA2 generally inactive.\",\n      \"added_value_from_computation\": \"This experiment follows primarily from background records and general biochemical reasoning. STRUCT-01 and STRUCT-02 make a grossly different native fold less compelling as the first explanation, but the models omit glycans and cannot assess preparation quality.\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"title\": \"2. Local sequence differences alter free-substrate handling while DNA-related activity is retained\",\n      \"question_and_explanation\": \"Could local sequence changes reduce activity on free adenosine without eliminating DNA binding or DNA-associated deamination? STRUCT-08 identifies reproducible predicted differences near human positions 281 and 347 and nearby substitutions. These are candidates, not established active-site changes: their distances to functional sites have not been computed. DNA interaction and DNA deamination have been reported for ADA2 (CTX-04), but preservation in pig is untested.\",\n      \"supporting_evidence_ids\": [\"CTX-01\", \"CTX-02\", \"CTX-04\", \"STRUCT-08\"],\n      \"conflicting_evidence_ids\": [],\n      \"evidence_notes\": \"Neither high local confidence nor a predicted displacement demonstrates altered chemistry. No supplied result connects these regions to substrate recognition or establishes pig DNA activity. STRUCT-06 and STRUCT-07 caution against prioritizing the largest displacements at uncertain loops and chain ends.\",\n      \"alternative_explanation\": \"The candidate regions are functionally neutral; altered preparation, glycosylation, or dimer assembly causes the activity gap. Apparent DNA activity could instead reflect nonspecific binding, free nucleoside contamination, or a copurified enzyme.\",\n      \"proposed_test\": \"After confirming the construct sequences and alignment, map the STRUCT-08 regions relative to the catalytic site, interface, and glycans. Test small reciprocal human/pig substitution sets in the confirmed regions against wild-type proteins. Compare free-adenosine kinetics and separately measure DNA binding, conversion of DNA-embedded deoxyadenosine to deoxyinosine, and DNA integrity. Use product analysis that distinguishes DNA-associated conversion from conversion of contaminating free nucleosides.\",\n      \"predicted_outcome_if_true\": \"Humanizing a candidate pig region increases free-adenosine activity, with a reciprocal decrease in human ADA2, without corresponding changes in folding, assembly, or protein amount. Pig ADA2 retains detectable DNA binding and DNA-associated conversion despite its lower free-adenosine activity.\",\n      \"falsifying_outcome\": \"Validated reciprocal variants leave free-adenosine activity unchanged, weakening the nominated-region mechanism. Lack of pig DNA-associated conversion with an effective human positive control contradicts the preservation claim; retained binding alone would support only a narrower binding function.\",\n      \"controls_and_feasibility\": \"Include both wild types, reciprocal variants, independent preparations, matched intact protein amounts, folding and dimer checks, mock purifications, DNA-only controls, and product standards. Distinguish binding from editing and strand cleavage. Chromatography and mass-spectrometry resources are described in CTX-09 and CTX-10, but detection of modified DNA requires assay validation.\",\n      \"next_decision\": \"If reciprocal effects occur without quality changes, dissect the responsible substitutions. If they track altered assembly or processing, redirect toward those mechanisms. If pig preserves DNA conversion, prioritize cellular relevance; if it preserves binding only, investigate binding-dependent functions without calling that editing.\",\n      \"added_value_from_computation\": \"STRUCT-08 shifts mutation prioritization toward the regions near human 281 and 347 rather than the largest but uncertain deviations in STRUCT-06 and STRUCT-07. Structural mapping is a prerequisite, not a completed result. The possibility of preserved DNA activity comes from CTX-04 plus general substrate-specificity reasoning, not from models containing DNA.\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"title\": \"3. A modest change in dimer arrangement alters catalysis without destroying partner-binding functions\",\n      \"question_and_explanation\": \"Does pig ADA2 form a dimer with a different relative chain arrangement that changes catalytic behavior? Pig models resemble human ADA2 more closely as individual chains than as dimers (STRUCT-03), and the offset persists without templates (STRUCT-04). Coupling between assembly geometry and catalysis is a general biochemical hypothesis, not an observed ADA2 mechanism. An intact pig dimer could still retain DNA or cellular-partner interactions independently of efficient free-adenosine turnover.\",\n      \"supporting_evidence_ids\": [\"CTX-01\", \"CTX-02\", \"STRUCT-02\", \"STRUCT-03\", \"STRUCT-04\", \"STRUCT-05\"],\n      \"conflicting_evidence_ids\": [],\n      \"evidence_notes\": \"The predicted offset is modest and lacks experimental pig structural validation. STRUCT-02 supports a modeled dimer, not measured dimer abundance, affinity, or catalytic coupling. No supplied evidence identifies a causal interface substitution or a preserved pig partner interaction.\",\n      \"alternative_explanation\": \"The offset is a modeling artifact or a harmless species difference. Local catalytic differences, glycosylation, folding, or unequal dimer abundance rather than dimer geometry explain the activity gap.\",\n      \"proposed_test\": \"First determine oligomeric state and compare solution structural restraints for matched human and pig preparations, alongside free-adenosine activity. If an arrangement difference is supported, use the validated alignment and interface map to select reciprocal interface variants that preserve folding and dimer abundance, and test whether geometry and activity shift together. Separately test DNA binding in wild types and informative variants to assess whether an interaction function survives.\",\n      \"predicted_outcome_if_true\": \"Both proteins remain dimeric, but experimentally supported arrangement differences correlate with activity. Interface variants that shift pig toward the human arrangement increase turnover, with reciprocal effects in human ADA2. DNA binding remains detectable despite low free-adenosine activity.\",\n      \"falsifying_outcome\": \"Solution measurements exclude the proposed arrangement difference at adequate resolution, or variants change arrangement without changing activity. Activity explained solely by the fraction of intact dimers weakens the geometry-specific mechanism. Absence of pig DNA binding contradicts that particular preservation claim.\",\n      \"controls_and_feasibility\": \"Use independent batches, matched protein concentrations and conditions, wild-type and reciprocal variants, and processing, glycosylation, folding, and zinc checks. Include nonspecific nucleic-acid competition and mock-purification controls for DNA binding. Protein characterization is supported by CTX-08 and CTX-09; access to suitable solution-structure methods must be confirmed rather than assumed.\",\n      \"next_decision\": \"If geometry and activity respond together to reciprocal perturbations, pursue catalytic coupling. If only dimer abundance matters, focus on assembly stability. If geometry is indistinguishable or uncoupled from activity, deprioritize this hypothesis. Retained DNA binding would justify a separate cellular interaction study, not an inference of DNA editing or TLR9 regulation.\",\n      \"added_value_from_computation\": \"STRUCT-03 and STRUCT-04 specifically motivate testing relative chain arrangement rather than merely asking whether pig ADA2 dimerizes. STRUCT-05 provides limited evidence of computational reproducibility. Preservation of binding is a background-informed possibility from CTX-04, not a structural prediction.\",\n      \"confidence\": \"low\"\n    }\n  ],\n  \"overall_note\": \"Prioritize matched preparation and kinetic measurements before extensive mutagenesis or animal experiments. CTX-01 supplies neither effect size nor conditions, and the literature observations require verification. Confirm the actual minipig construct and draft alignment first. The calculations prioritize local regions and dimer geometry but establish no catalytic defect or preserved function. DNA binding, DNA editing, strand cleavage, and cellular lysosome/TLR9 effects require separate evidence; similar disease phenotypes in deficient pigs and humans (CTX-07) do not identify the shared molecular function.\"\n}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": "final_answer"
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 0.98,
+ "background": false,
+ "completed_at": 1794877146.0,
+ "conversation": null,
+ "image": {
+  "context_compression": "disabled"
+ },
+ "max_output_tokens": 16000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": "24h",
+ "reasoning": {
+  "context": "all_turns",
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": "standard",
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "default",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "ada2_hypotheses",
+   "schema_": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "hypotheses",
+     "overall_note"
+    ],
+    "properties": {
+     "hypotheses": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "title",
+        "question_and_explanation",
+        "supporting_evidence_ids",
+        "conflicting_evidence_ids",
+        "evidence_notes",
+        "alternative_explanation",
+        "proposed_test",
+        "predicted_outcome_if_true",
+        "falsifying_outcome",
+        "controls_and_feasibility",
+        "next_decision",
+        "added_value_from_computation",
+        "confidence"
+       ],
+       "properties": {
+        "title": {
+         "type": "string"
+        },
+        "question_and_explanation": {
+         "type": "string"
+        },
+        "supporting_evidence_ids": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "conflicting_evidence_ids": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "evidence_notes": {
+         "type": "string"
+        },
+        "alternative_explanation": {
+         "type": "string"
+        },
+        "proposed_test": {
+         "type": "string"
+        },
+        "predicted_outcome_if_true": {
+         "type": "string"
+        },
+        "falsifying_outcome": {
+         "type": "string"
+        },
+        "controls_and_feasibility": {
+         "type": "string"
+        },
+        "next_decision": {
+         "type": "string"
+        },
+        "added_value_from_computation": {
+         "type": "string"
+        },
+        "confidence": {
+         "type": "string",
+         "enum": [
+          "low",
+          "moderate",
+          "high"
+         ]
+        }
+       }
+      }
+     },
+     "overall_note": {
+      "type": "string"
+     }
+    }
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": "medium"
+ },
+ "tool_usage": {
+  "image_gen": {
+   "input_tokens": 0,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 0
+   },
+   "output_tokens": 0,
+   "total_tokens": 0,
+   "cached_tokens": null,
+   "cached_tokens_details": null,
+   "output_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 0
+   }
+  },
+  "web_search": {
+   "num_requests": 0
+  }
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 5328,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 5325,
+   "cache_write_tokens_details": {
+    "ttl_12h_tokens": 0,
+    "ttl_30m_tokens": 0
+   }
+  },
+  "output_tokens": 2404,
+  "output_tokens_details": {
+   "reasoning_tokens": 239
+  },
+  "total_tokens": 7732
+ },
+ "user": null,
+ "billing": {
+  "payer": "developer"
+ },
+ "frequency_penalty": 0.0,
+ "input_transformations": [],
+ "presence_penalty": 0.0,
+ "store": true
+}

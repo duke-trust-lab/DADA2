@@ -1,9 +1,9 @@
-# pilot_A3_r1_20261110T005054_00_a498
+# formal_A3_r2_20261117T005805_02_3525
 
 condition: A3  
 model_returned: gpt-6-astra  
 reasoning_effort: medium  
-prompt_version: v0.1_DRAFT  
+prompt_version: v1.0  
 status: completed
 
 ## hypotheses
@@ -12,16 +12,15 @@ status: completed
 
 #### title
 
-1. Preparation and maturation differences account for much of the apparent activity gap
+1. Protein maturation or assay conditions account for much of the activity gap
 
 #### question_and_explanation
 
-Does pig ADA2 remain less active when equivalent amounts of properly processed, folded protein are compared? CTX-01 reports lower activity but provides no effect size or assay conditions. Different annotated signal peptides and glycosylation sites provide a reason to examine maturation, not proof of its involvement (CTX-03). The general biochemical hypothesis is that unequal functional protein amounts, glycosylation, processing, or zinc loading could produce an apparent species difference without different intrinsic catalytic chemistry.
+Does pig ADA2 remain less active when equivalent mature, folded protein is compared under matched conditions? The reported difference lacks assay conditions and effect size (CTX-01). Signal-peptide and glycosylation annotations differ, but actual processing and glycan occupancy are unknown (CTX-03). From general biochemical knowledge, these factors, zinc occupancy, and protein amount could change apparent activity without an intrinsic difference in catalytic chemistry.
 
 #### supporting_evidence_ids
 
 - CTX-01
-- CTX-02
 - CTX-03
 - CTX-06
 
@@ -31,35 +30,35 @@ _(none)_
 
 #### evidence_notes
 
-The constructs, protein quality, glycan occupancy, zinc occupancy, and assay conditions are not provided. No supplied observation directly demonstrates a preparation artifact. Predicted dimers do not establish that the experimental preparations are folded or dimeric.
+These records establish uncertainty and possible confounders, not a demonstrated preparation artifact. Confident predicted dimers do not establish the folding, processing, or assembly of the experimental proteins.
 
 #### alternative_explanation
 
-An intrinsic sequence-dependent difference persists even in equivalently prepared human and pig ADA2.
+Pig ADA2 has an intrinsic sequence-dependent difference in substrate handling or dimer geometry that persists across matched preparations.
 
 #### proposed_test
 
-First verify both construct sequences, including the actual minipig sequence. Compare independent human and pig preparations made in the same expression system with matched tag handling. Measure free-adenosine conversion over substrate concentrations under shared assay conditions, alongside protein amount, processing, glycosylation, folding, oligomeric state, and zinc occupancy. If a preparation feature differs, test whether correcting that feature rescues activity without changing sequence.
+Verify the actual constructs and pig sequence, then compare independently prepared human and pig ADA2 using matched expression, purification, and tags. Measure adenosine-to-inosine conversion across substrate concentrations and a shared range of assay conditions, normalized to measured intact protein amount. In parallel, characterize processing, glycosylation, folding, oligomerization, and zinc occupancy. If a preparation difference is detected, correct that factor and repeat the comparison.
 
 #### predicted_outcome_if_true
 
-The activity gap substantially contracts after preparation matching, or pig activity changes reproducibly with correction of a specific maturation or loading difference.
+The activity gap substantially decreases after matching preparations or conditions, or activity tracks a measured maturation or quality difference rather than species alone.
 
 #### falsifying_outcome
 
-A reproducible activity gap persists across independent, well-characterized preparations with comparable protein amount, folding, processing, oligomeric state, and zinc loading under shared conditions.
+A reproducible gap persists across independent preparations with comparable measured quality, processing, oligomerization, zinc occupancy, and protein amount, throughout the tested conditions.
 
 #### controls_and_feasibility
 
-Use human and pig wild-type proteins, independent preparation batches, no-enzyme controls, and product-recovery controls to detect assay interference. Compare glycan manipulations only with corresponding sham-treated samples and folding checks. Recombinant expression and characterization are supported by CTX-08; specific methods for glycan, metal, and oligomer analysis require confirmation with the team.
+Include substrate-only and mock-purification controls, product standards, independent protein batches, and measurements within the initial-rate regime. Check that any processing or glycan manipulation does not itself damage folding. Recombinant-protein work and chromatography are supported by CTX-08 and CTX-09; proteomics access is described in CTX-10, but specialized characterization access and turnaround require confirmation.
 
 #### next_decision
 
-If matching rescues activity, standardize the responsible preparation feature before interpreting species biology. If the gap persists, prioritize intrinsic sequence and substrate-selectivity tests. If protein quality remains unequal, resolve that uncertainty before mutagenesis.
+If matching rescues activity, standardize preparation before sequence engineering. If the gap persists, advance intrinsic sequence and assembly hypotheses. If only certain conditions rescue activity, characterize that conditional difference rather than labeling pig ADA2 generally inactive.
 
 #### added_value_from_computation
 
-This experiment follows mainly from background records and general biochemical knowledge. STRUCT-02 makes a gross inability of the reference pig sequence to adopt a dimer less compelling, but cannot exclude defective folding or assembly in actual preparations. The glycan-free predictions cannot test the maturation explanation.
+This experiment follows primarily from background records and general biochemical reasoning. STRUCT-01 and STRUCT-02 make a grossly different native fold less compelling as the first explanation, but the models omit glycans and cannot assess preparation quality.
 
 #### confidence
 
@@ -69,55 +68,54 @@ low
 
 #### title
 
-2. Sequence differences near the predicted interior shifts alter catalytic coupling or dimer organization
+2. Local sequence differences alter free-substrate handling while DNA-related activity is retained
 
 #### question_and_explanation
 
-Do the candidate sequence differences around human-aligned positions 281 and 347 contribute causally to lower free-adenosine activity? STRUCT-08 reports confident local structural shifts near V277A, E278K, E282G, K346S, and D347R. STRUCT-03 also predicts a modest difference in relative chain arrangement. As a general mechanistic possibility, these changes could influence substrate handling or coupling between subunits without destroying the overall fold; their proximity to functional sites has not been established.
+Could local sequence changes reduce activity on free adenosine without eliminating DNA binding or DNA-associated deamination? STRUCT-08 identifies reproducible predicted differences near human positions 281 and 347 and nearby substitutions. These are candidates, not established active-site changes: their distances to functional sites have not been computed. DNA interaction and DNA deamination have been reported for ADA2 (CTX-04), but preservation in pig is untested.
 
 #### supporting_evidence_ids
 
 - CTX-01
-- STRUCT-03
-- STRUCT-04
-- STRUCT-05
+- CTX-02
+- CTX-04
 - STRUCT-08
 
 #### conflicting_evidence_ids
 
-- STRUCT-02
+_(none)_
 
 #### evidence_notes
 
-STRUCT-02 argues against gross predicted dimer disruption, not against subtle functional changes. The shifts are predictions, and neither catalytic effects nor a connection between these regions and the dimer interface has been measured. Residue correspondence remains dependent on a draft alignment.
+Neither high local confidence nor a predicted displacement demonstrates altered chemistry. No supplied result connects these regions to substrate recognition or establishes pig DNA activity. STRUCT-06 and STRUCT-07 caution against prioritizing the largest displacements at uncertain loops and chain ends.
 
 #### alternative_explanation
 
-The predicted differences are functionally neutral species variation; the activity gap instead arises from preparation differences or sequence changes elsewhere.
+The candidate regions are functionally neutral; altered preparation, glycosylation, or dimer assembly causes the activity gap. Apparent DNA activity could instead reflect nonspecific binding, free nucleoside contamination, or a copurified enzyme.
 
 #### proposed_test
 
-After validating the construct alignment, map these candidate regions relative to the catalytic site and interface. Test reciprocal human-to-pig and pig-to-human substitutions in the two regions separately, followed by individual substitutions if a regional change has an effect. Compare free-adenosine kinetics, folding, and oligomeric state. If activity changes without altered dimer abundance, a solution-structure comparison could distinguish altered dimer geometry from a local catalytic effect.
+After confirming the construct sequences and alignment, map the STRUCT-08 regions relative to the catalytic site, interface, and glycans. Test small reciprocal human/pig substitution sets in the confirmed regions against wild-type proteins. Compare free-adenosine kinetics and separately measure DNA binding, conversion of DNA-embedded deoxyadenosine to deoxyinosine, and DNA integrity. Use product analysis that distinguishes DNA-associated conversion from conversion of contaminating free nucleosides.
 
 #### predicted_outcome_if_true
 
-Humanizing at least one pig candidate region increases activity, while the reciprocal human change reduces it, without corresponding loss of protein integrity. A reproducible geometry or assembly change tracking activity would additionally support the dimer-coupling mechanism.
+Humanizing a candidate pig region increases free-adenosine activity, with a reciprocal decrease in human ADA2, without corresponding changes in folding, assembly, or protein amount. Pig ADA2 retains detectable DNA binding and DNA-associated conversion despite its lower free-adenosine activity.
 
 #### falsifying_outcome
 
-Validated reciprocal changes leave activity unchanged in well-folded, equivalently prepared proteins. Activity changes explained entirely by altered protein recovery or denaturation would weaken the proposed specific catalytic-coupling mechanism.
+Validated reciprocal variants leave free-adenosine activity unchanged, weakening the nominated-region mechanism. Lack of pig DNA-associated conversion with an effective human positive control contradicts the preservation claim; retained binding alone would support only a narrower binding function.
 
 #### controls_and_feasibility
 
-Include both wild types, sham-engineered controls, matched expression and purification, equal protein amounts, and processing, glycosylation, zinc-loading, and folding checks. CTX-08 supports recombinant protein work broadly. A method capable of resolving a modest solution-state dimer geometry difference must be confirmed; oligomer abundance alone cannot establish geometry.
+Include both wild types, reciprocal variants, independent preparations, matched intact protein amounts, folding and dimer checks, mock purifications, DNA-only controls, and product standards. Distinguish binding from editing and strand cleavage. Chromatography and mass-spectrometry resources are described in CTX-09 and CTX-10, but detection of modified DNA requires assay validation.
 
 #### next_decision
 
-If reciprocal activity effects occur, resolve the responsible substitutions and then distinguish local substrate handling from dimer coupling. If only protein stability changes, pursue a stability mechanism instead. If neither region affects activity, deprioritize these candidates rather than expanding mutagenesis solely from model confidence.
+If reciprocal effects occur without quality changes, dissect the responsible substitutions. If they track altered assembly or processing, redirect toward those mechanisms. If pig preserves DNA conversion, prioritize cellular relevance; if it preserves binding only, investigate binding-dependent functions without calling that editing.
 
 #### added_value_from_computation
 
-STRUCT-08 supplies candidate regions for targeted experiments rather than an unguided species-wide swap. STRUCT-04 and STRUCT-05 reduce concern that the predicted differences arise solely from template use or seed variation. STRUCT-06 and STRUCT-07 discourage prioritizing the largest shifts near the insertion or chain ends, where alignment and confidence are weaker. No supplied calculation yet places the selected candidates at the active site or interface.
+STRUCT-08 shifts mutation prioritization toward the regions near human 281 and 347 rather than the largest but uncertain deviations in STRUCT-06 and STRUCT-07. Structural mapping is a prerequisite, not a completed result. The possibility of preserved DNA activity comes from CTX-04 plus general substrate-specificity reasoning, not from models containing DNA.
 
 #### confidence
 
@@ -127,16 +125,20 @@ low
 
 #### title
 
-3. Pig ADA2 has altered substrate preference while retaining DNA-associated activity
+3. A modest change in dimer arrangement alters catalysis without destroying partner-binding functions
 
 #### question_and_explanation
 
-Is pig ADA2 selectively poor at using free adenosine rather than broadly catalytically inactive? CTX-04 reports ADA2–DNA interactions and deoxyadenosine-to-deoxyinosine conversion within DNA, motivating a test of whether pig ADA2 retains DNA binding and editing despite reduced free-adenosine activity. Substrate-dependent engagement or positioning is a general mechanistic hypothesis, not an observed pig property. Binding could also persist even if editing does not.
+Does pig ADA2 form a dimer with a different relative chain arrangement that changes catalytic behavior? Pig models resemble human ADA2 more closely as individual chains than as dimers (STRUCT-03), and the offset persists without templates (STRUCT-04). Coupling between assembly geometry and catalysis is a general biochemical hypothesis, not an observed ADA2 mechanism. An intact pig dimer could still retain DNA or cellular-partner interactions independently of efficient free-adenosine turnover.
 
 #### supporting_evidence_ids
 
 - CTX-01
-- CTX-04
+- CTX-02
+- STRUCT-02
+- STRUCT-03
+- STRUCT-04
+- STRUCT-05
 
 #### conflicting_evidence_ids
 
@@ -144,35 +146,35 @@ _(none)_
 
 #### evidence_notes
 
-No supplied record measures pig ADA2 binding or editing DNA. CTX-04 is a draft literature observation requiring verification. The similar predicted folds do not establish preservation of any DNA function, and the models contain no DNA.
+The predicted offset is modest and lacks experimental pig structural validation. STRUCT-02 supports a modeled dimer, not measured dimer abundance, affinity, or catalytic coupling. No supplied evidence identifies a causal interface substitution or a preserved pig partner interaction.
 
 #### alternative_explanation
 
-Pig ADA2 has a general catalytic defect and retains, at most, noncatalytic DNA binding. Apparent DNA editing could instead reflect a copurifying enzyme, free nucleoside contamination, or DNA degradation.
+The offset is a modeling artifact or a harmless species difference. Local catalytic differences, glycosylation, folding, or unequal dimer abundance rather than dimer geometry explain the activity gap.
 
 #### proposed_test
 
-Using matched, characterized preparations, compare free-adenosine conversion, free-deoxyadenosine conversion, DNA binding, DNA-associated deoxyinosine formation, and DNA integrity as separate readouts. Directly establish that the editing product originated within DNA rather than from free nucleosides. Compare the pig-to-human activity relationship across substrates; the free-deoxyadenosine arm separates sugar preference from a requirement for DNA context.
+First determine oligomeric state and compare solution structural restraints for matched human and pig preparations, alongside free-adenosine activity. If an arrangement difference is supported, use the validated alignment and interface map to select reciprocal interface variants that preserve folding and dimer abundance, and test whether geometry and activity shift together. Separately test DNA binding in wild types and informative variants to assess whether an interaction function survives.
 
 #### predicted_outcome_if_true
 
-Pig ADA2 shows a smaller activity deficit on DNA-associated substrate than on free adenosine, together with measurable DNA binding and enzyme-dependent DNA editing. Preservation only on free deoxyadenosine would instead indicate nucleoside preference, not necessarily a DNA-context advantage.
+Both proteins remain dimeric, but experimentally supported arrangement differences correlate with activity. Interface variants that shift pig toward the human arrangement increase turnover, with reciprocal effects in human ADA2. DNA binding remains detectable despite low free-adenosine activity.
 
 #### falsifying_outcome
 
-Pig loses DNA editing to the same extent as free-substrate activity under conditions where human ADA2 edits DNA. Binding without editing would contradict preserved DNA catalysis while supporting retention of a separate binding function. A signal attributable to free nucleosides or contaminants would not support the hypothesis.
+Solution measurements exclude the proposed arrangement difference at adequate resolution, or variants change arrangement without changing activity. Activity explained solely by the fraction of intact dimers weakens the geometry-specific mechanism. Absence of pig DNA binding contradicts that particular preservation claim.
 
 #### controls_and_feasibility
 
-Include human ADA2 as a positive comparator, no-protein and mock-purification controls, independent protein preparations, and separately validated controls for binding, product detection, and DNA cleavage. Match protein amount and assess folding, processing, glycosylation, assembly, zinc loading, and assay conditions. CTX-08 supports relevant broad expertise, but suitable DNA-editing measurements and analytical sensitivity must be confirmed. The existing ADA2 aptamer is not evidence of generic DNA binding or pig cross-reactivity.
+Use independent batches, matched protein concentrations and conditions, wild-type and reciprocal variants, and processing, glycosylation, folding, and zinc checks. Include nonspecific nucleic-acid competition and mock-purification controls for DNA binding. Protein characterization is supported by CTX-08 and CTX-09; access to suitable solution-structure methods must be confirmed rather than assumed.
 
 #### next_decision
 
-If pig DNA editing is relatively preserved, prioritize substrate-recognition mechanisms and then test cellular localization and DNA/TLR9 consequences separately. If only binding persists, pursue noncatalytic partner interactions without claiming editing. If neither persists, deprioritize conserved DNA functions under the tested conditions; this would not exclude other unknown functions.
+If geometry and activity respond together to reciprocal perturbations, pursue catalytic coupling. If only dimer abundance matters, focus on assembly stability. If geometry is indistinguishable or uncoupled from activity, deprioritize this hypothesis. Retained DNA binding would justify a separate cellular interaction study, not an inference of DNA editing or TLR9 regulation.
 
 #### added_value_from_computation
 
-This hypothesis comes from CTX-01 and CTX-04 plus general substrate-specificity reasoning. The supplied structural predictions do not directly change the DNA experiment because they lack DNA and glycans and provide no DNA-binding analysis. CTX-07 motivates eventual cellular follow-up but does not identify which molecular function is preserved in pigs.
+STRUCT-03 and STRUCT-04 specifically motivate testing relative chain arrangement rather than merely asking whether pig ADA2 dimerizes. STRUCT-05 provides limited evidence of computational reproducibility. Preservation of binding is a background-informed possibility from CTX-04, not a structural prediction.
 
 #### confidence
 
@@ -180,16 +182,16 @@ low
 
 ## overall_note
 
-Start by reproducing the activity difference with verified constructs and matched preparations: its magnitude and conditions are not provided, and the reference pig sequence may not match the experimental minipig construct. The computations prioritize candidate tests but establish neither catalytic impairment nor conserved DNA function. Binding, DNA editing, DNA cleavage, and cellular inflammatory effects require separate evidence.
+Prioritize matched preparation and kinetic measurements before extensive mutagenesis or animal experiments. CTX-01 supplies neither effect size nor conditions, and the literature observations require verification. Confirm the actual minipig construct and draft alignment first. The calculations prioritize local regions and dimer geometry but establish no catalytic defect or preserved function. DNA binding, DNA editing, strand cleavage, and cellular lysosome/TLR9 effects require separate evidence; similar disease phenotypes in deficient pigs and humans (CTX-07) do not identify the shared molecular function.
 
 ## context_provided_to_model
 
 - condition: A3
-- prompt version: v0.1_DRAFT
-- background / literature records (shared by all conditions): CTX-01 to CTX-08 (8 records)
+- prompt version: v1.0
+- background / literature records (shared by all conditions): CTX-01 to CTX-11 (11 records)
 - structure evidence: STRUCT-01 to STRUCT-08 (8 records)
-- full input hash (sha256, first 12): e7ae2d62bfbe
-- shared context hash (sha256, first 12): a6539b55b600
+- full input hash (sha256, first 12): 95c2c4bc389a
+- shared context hash (sha256, first 12): 2a75a6c9f881
 - evidence hash (sha256, first 12): 8873f0094138
 
 The exact text sent to the model (also saved as `input.txt`):
@@ -239,13 +241,16 @@ CTX-04. A 2024 study reported ADA2 interactions with DNA, conversion of deoxyade
 CTX-05. Deficiency of ADA2 (DADA2), caused by disease-causing changes in both copies of the ADA2 gene, can involve inflammation, blood vessel problems, abnormal blood-cell production, and immune problems. How ADA2's molecular activities relate to these symptoms is still being investigated.
 CTX-06. Both human and pig reference sequences are UniProt reviewed entries (human Q9NZK5, 511 amino acids; pig P58780, 510 amino acids). The pig sequence is not confirmed to match the collaborators' Yucatan mini-pig or their recombinant construct. A human experimental structure exists (3LGD); no experimental pig structure was identified in the supplied materials.
 CTX-07. The collaborating laboratory (at Duke) studies inherited disorders of purine metabolism and, in particular, deficiency of ADA2 (DADA2) in human patients: its genetics, diagnosis, and how it causes immune deficiency, auto-inflammatory, or autoimmune disease. With an industry collaborator it has made a minipig model of ADA2 deficiency and is characterizing the inflammatory disease that loss of ADA2 causes in these pigs, which resembles DADA2 in humans. The longer-term aim of the collaboration is to understand the fundamental biological function of ADA2, which may lead to an understanding of how the disease arises and possibly to specific therapy. Source: the laboratory's written reply to the team's request for its tools and methods.
-CTX-08. Laboratory capabilities reported by the laboratory. People: six PhD scientists and a couple of skilled technicians, with broad expertise in biochemistry, enzymology, genetics, immunology, and cell biology. One member specializes in developing DNA and RNA aptamers and has developed an aptamer specific for ADA2, which is being used to study where ADA2 is located in living monocytes and macrophages. Two further members are expected to join in January: one with expertise in protein expression, purification, and structure analysis by NMR and other techniques, and one with extensive expertise in mass spectrometry for metabolomic and proteomic studies; these two are expected to test hypotheses about ADA2's function and molecular partners. Equipment: the laboratory states that it has, or has access to, the equipment needed to over-express, purify, and characterize recombinant human and pig ADA2 and otherwise pursue this research. Source: the same written reply. The reply does not list specific instruments, methods, or constraints, and it gives no limits on what the laboratory cannot do.
+CTX-08. Laboratory capabilities reported by the laboratory. People: six PhD scientists and a couple of skilled technicians, with broad expertise in biochemistry, enzymology, genetics, immunology, and cell biology. One member specializes in developing DNA and RNA aptamers and has developed an aptamer specific for ADA2, which is being used to study where ADA2 is located in living monocytes and macrophages. Two further members are expected to join in January: one with expertise in protein expression, purification, and structure analysis by NMR and other techniques, and one with extensive expertise in mass spectrometry for metabolomic and proteomic studies; these two are expected to test hypotheses about ADA2's function and molecular partners. Equipment: the laboratory states that it has, or has access to, the equipment needed to over-express, purify, and characterize recombinant human and pig ADA2 and otherwise pursue this research. Source: the same written reply. The reply does not list specific instruments; see CTX-09 to CTX-11 for the written equipment and facilities descriptions. Neither source gives limits on what the laboratory cannot do.
+CTX-09. In-house equipment, as listed in the laboratories' equipment description (from a grant proposal; the description says the laboratories hold all major and minor equipment needed for the studies in that proposal, together with the Duke core facilities). Listed: PCR machines, digital PCR, qRT-PCR, thermocycler, UV transilluminator with gel imaging, 3 spectrophotometers, DNA and protein electrophoresis equipment, 2 tissue-culture incubators, biosafety cabinets, HPLC and FPLC, 4 refrigerators, 5 ultra-low (-80 C) freezers, 3 -20 C freezers, 2 liquid nitrogen freezers, tabletop centrifuges, pH meters, and microscopes including a high-resolution Keyence BZ-X series fluorescence microscope. Shared rooms: cold room, darkroom, autoclave, dishwasher. Together with CTX-08, the laboratory can over-express, purify, and characterize recombinant human and pig ADA2. Source: Tarrant and Hershfield laboratories, Equipment (grant proposal section).
+CTX-10. Duke core facilities available to the laboratories, as described in the facilities section of the same proposal. Flow cytometry and cell sorting (several analyzers and sorters, up to 12 fluorochromes at once, P2 biohazard containment for sorting). Animal pathology (macroscopic pathology, histopathology, clinical pathology). Genomics and computational biology (sequencing and genomic technologies, bioinformatics). Light microscopy (21 microscopes including 9 confocal, 1 TIRF, 1 multiphoton with fluorescence lifetime, 1 laser capture microdissection; 6 image-analysis workstations). Molecular genomics (10x Genomics single-cell RNA and ATAC sequencing, Visium and Xenium spatial assays, DNA methylation and SNP arrays, Taqman genotyping). Metabolomics and proteomics: 13 mass spectrometers (Waters, Agilent, Sciex, Thermo Fisher) including 4 triple-quadrupole instruments and a GC/MS, with targeted panels of more than 300 metabolites in seven classes (acylcarnitines, amino acids and biogenic amines, acyl CoAs, organic acids, ceramides, sphingomyelins, and 36 nucleotides and purine/pyrimidine pathway intermediates) plus untargeted GC/MS. Electron microscopy (sample preparation, imaging, and immuno-EM). These are shared core services, so access, cost, and turnaround are not stated. Source: Tarrant and Hershfield laboratories, Facilities and Other Resources (grant proposal section).
+CTX-11. Facilities, clinical testing, and animals, from the same facilities section. The laboratories occupy about 1,700 sq ft in the Sands Research Building at Duke, sharing space with immunology and biochemistry. The principal investigator directs the CLIA/CAP-certified Purine Metabolic and Immunodeficiency laboratory that performs ADA1 and ADA2 testing. The ADA2-deficient swine colony is not currently housed at Duke: the pigs are bred and housed at the collaborating vendor, and weaned minipigs are planned to be transferred to Duke's accredited animal resources facility (DLAR), which has surgical suites and MRI, CT, X-ray, ultrasound, optical, histological, and pathological imaging. Planned animal work is challenge studies with a baculovirus (AcMNPV) pseudotyped with VSV-G and other TLR agonists, for up to three months before endpoints, with procedures such as bone marrow biopsy and catheter placement. Source: Tarrant and Hershfield laboratories, Facilities and Other Resources (grant proposal section).
 
 Known unknowns
 - The exact human and pig recombinant constructs (signal peptide, tags, linkers), expression system, purification, and glycosylation state.
 - Assay conditions: substrate, concentrations, pH and buffer, temperature, incubation time.
 - Whether pig ADA2 is secreted and dimerizes in the lab's preparations.
-- Exactly which experiments the laboratory can and cannot run. CTX-08 gives general expertise and says recombinant protein work is possible, but lists no specific instruments or limits. Do not assume a capability that is not in CTX-07 or CTX-08; if a proposed test needs one, say so.
+- Assay-specific details of what the laboratory will run (instrument settings, scheduling, and cost and turnaround of core services).
 
 Alternative explanations to consider
 - Different chemistry: sequence changes might alter how the active site handles free adenosine while other activities stay similar.

@@ -1,0 +1,68 @@
+{
+ "hypotheses": [
+  {
+   "title": "1. Preparation or assay differences account for much of the apparent activity gap",
+   "question_and_explanation": "Does pig ADA2 remain less active when mature protein amount, preparation quality, and assay conditions are matched? CTX-01 reports only the direction of the difference. Different processing, glycosylation, folding, zinc occupancy, or amounts of intact protein could produce an apparent species difference without different intrinsic catalytic chemistry. These mechanisms are general biochemical possibilities, not demonstrated causes here.",
+   "supporting_evidence_ids": [
+    "CTX-01",
+    "CTX-02",
+    "CTX-03",
+    "CTX-06"
+   ],
+   "conflicting_evidence_ids": [],
+   "evidence_notes": "CTX-03 documents different signal-peptide and glycosylation annotations, not the processing or glycan occupancy of the tested preparations. CTX-06 leaves the actual pig construct identity unresolved. There is no supplied matched-preparation comparison.",
+   "alternative_explanation": "Pig ADA2 has an intrinsic sequence-dependent catalytic or assembly difference that persists after preparation and assay conditions are controlled.",
+   "proposed_test": "First verify both construct sequences and mature protein boundaries. Compare independently prepared human and pig ADA2 made with matched expression, purification, and tag handling. Quantify intact protein, folding, oligomerization, processing, glycans, and zinc occupancy. Measure adenosine-to-inosine conversion across substrate concentrations and a shared range of assay conditions. If a preparation difference is found, test a targeted correction while checking protein integrity.",
+   "predicted_outcome_if_true": "The activity gap shrinks substantially under matched conditions, or activity tracks a preparation feature rather than species. Correcting that feature improves pig activity without changing its mature amino-acid sequence.",
+   "falsifying_outcome": "A reproducible activity gap persists across independent preparations with comparable intact protein amount, folding, processing, glycosylation, zinc occupancy, and assembly, and across shared assay conditions.",
+   "controls_and_feasibility": "Include no-enzyme and purification blanks, a human ADA2 positive control, product standards, independent preparations, and checks that product formation is proportional to time and protein amount. Use direct product measurement to avoid species-dependent reporter artifacts. Expression, chromatography, and analytical support are described in CTX-08, CTX-09, and CTX-10; specific methods and core access remain to be arranged.",
+   "next_decision": "If matching or correction removes the gap, establish a standardized preparation before mutagenesis. If the gap persists, prioritize intrinsic sequence and assembly tests. Partial rescue warrants separating preparation effects from the remaining species effect.",
+   "added_value_from_computation": "This experiment follows principally from background information and general biochemical reasoning. STRUCT-02 predicts plausible dimers for both species but cannot establish that the laboratory proteins are folded or dimeric. The unglycosylated, signal-peptide-trimmed models do not resolve preparation effects.",
+   "confidence": "low"
+  },
+  {
+   "title": "2. Local sequence differences alter substrate handling while leaving some DNA-related activity intact",
+   "question_and_explanation": "Could localized differences reduce free-adenosine turnover without eliminating DNA binding or DNA-associated deamination? STRUCT-08 identifies candidate regions around human positions 281 and 347 with reproducible predicted shifts and nearby substitutions. Their relationship to the catalytic site is not provided, so altered substrate handling is a testable interpretation, not an established mechanism. Preservation of DNA-related activity is motivated by CTX-04, not demonstrated for pig ADA2.",
+   "supporting_evidence_ids": [
+    "CTX-01",
+    "CTX-02",
+    "CTX-04",
+    "STRUCT-06",
+    "STRUCT-08"
+   ],
+   "conflicting_evidence_ids": [],
+   "evidence_notes": "STRUCT-08 nominates candidates but provides no distances to the active site, interface, or glycosylation sites. High prediction confidence does not establish catalytic relevance. CTX-04 reports DNA-related activities but supplies no human\u2013pig comparison.",
+   "alternative_explanation": "The candidate shifts are functionally neutral, reflect assembly differences, or are modelling artifacts. Lower activity on all substrates could instead reflect fewer correctly folded or properly processed pig molecules, different glycans, or different assay requirements.",
+   "proposed_test": "After verifying constructs and alignment, map the STRUCT-08 regions relative to catalytic and interface features. Test small reciprocal human\u2013pig substitutions in the two candidate regions, separately rather than as one broad swap. Compare free-adenosine kinetics, DNA binding, and deoxyadenosine-to-deoxyinosine conversion in DNA using separate readouts. Measure DNA integrity independently; binding or cleavage must not be scored as editing.",
+   "predicted_outcome_if_true": "Pig-to-human substitutions improve free-adenosine activity and reciprocal changes reduce human activity without comparable losses of folding or assembly. Pig ADA2 retains measurable DNA binding or DNA-associated deamination despite lower free-adenosine activity, supporting substrate-dependent rather than universal loss of function.",
+   "falsifying_outcome": "Well-folded reciprocal variants show no activity changes, weakening these specific candidates. If all apparent activity changes track protein integrity, the substrate-handling interpretation fails. Absence of pig DNA binding and editing in assays with a working human control contradicts the proposed preservation under those conditions.",
+   "controls_and_feasibility": "Use matched wild-type preparations, reciprocal variants, no-protein and purification blanks, verified protein amounts, and folding, oligomerization, processing, and glycan checks. Exclude free-nucleoside contamination and contaminating DNA-active enzymes. Human ADA2 must validate each DNA assay. Biochemistry and mass-spectrometry resources are described in CTX-08 through CTX-10, but a validated DNA-editing assay is not stated.",
+   "next_decision": "Reciprocal catalytic effects justify dissecting individual substitutions and substrate dependence. Preserved DNA binding without editing redirects attention toward interaction functions rather than DNA catalysis. Null results deprioritize these regions, not every possible sequence-dependent mechanism.",
+   "added_value_from_computation": "STRUCT-08 focuses initial mutagenesis on two candidates rather than the largest model deviations. STRUCT-07 argues against prioritizing the flexible termini and insertion-adjacent region solely by displacement. DNA assays come from CTX-04; selective preservation is a general mechanistic hypothesis, not a structural prediction.",
+   "confidence": "low"
+  },
+  {
+   "title": "3. A different dimer arrangement changes catalysis but preserves an interaction scaffold",
+   "question_and_explanation": "Does pig ADA2 assemble differently in a way that lowers free-adenosine activity while retaining DNA or cellular interactions? STRUCT-03 predicts a modest change in relative chain arrangement despite similar individual chains; STRUCT-04 shows that it persists without templates. Coupling between assembly and catalysis is a general biochemical possibility. A folded pig dimer could still support interaction functions, but neither retained binding nor catalytic coupling is established.",
+   "supporting_evidence_ids": [
+    "CTX-01",
+    "CTX-02",
+    "CTX-04",
+    "STRUCT-02",
+    "STRUCT-03",
+    "STRUCT-04"
+   ],
+   "conflicting_evidence_ids": [],
+   "evidence_notes": "STRUCT-02 supports predicted dimers in both species, not failure of pig dimerization. STRUCT-03 reports only a modest predicted orientation difference, and there is no supplied experimental pig structure. The hypothesis concerns arrangement or stability, not a demonstrated absence of dimers.",
+   "alternative_explanation": "The predicted orientation difference is harmless or artifactual, and local catalytic changes explain the activity gap. Observed assembly differences could also arise from concentration, tags, folding, processing, glycans, or buffer conditions.",
+   "proposed_test": "Compare oligomeric state and concentration-dependent activity in matched preparations. If both are dimers, obtain an experimental interchain-geometry readout rather than treating equal oligomeric mass as evidence of equal arrangement. After confirming interface substitutions and geometry, test reciprocal interface variants for linked changes in assembly and activity. In parallel, measure DNA binding separately from editing; pursue cellular localization or TLR9-related readouts only after establishing protein uptake and assay competence.",
+   "predicted_outcome_if_true": "An experimental assembly or geometry difference accompanies the catalytic gap, and interface perturbations shift both properties together without disrupting global folding. Pig protein can retain DNA binding or cellular interaction effects even if its free-adenosine turnover remains low.",
+   "falsifying_outcome": "No assembly or geometry difference is detected with an appropriately sensitive readout, or confirmed geometry changes leave activity unchanged. Loss of the apparent catalytic association after matching preparation conditions weakens an intrinsic dimer mechanism. No pig interaction signal with validated controls weakens the preservation claim.",
+   "controls_and_feasibility": "Control protein concentration, tags, buffer, zinc, folding, processing, and glycosylation; include wild types, reciprocal variants, no-protein controls, and independent preparations. Check DNA-binding specificity rather than equating charge-mediated association with function. CTX-08 through CTX-10 describe relevant expertise and core access. The ADA2 aptamer in CTX-08 requires species-reactivity validation before localization comparisons.",
+   "next_decision": "Coupled geometry and activity changes justify focused interface studies. Geometry differences without catalytic effects should not drive further activity-rescue work. Preserved binding or cellular effects warrant separate mechanistic studies; they do not by themselves establish DNA editing or disease relevance.",
+   "added_value_from_computation": "STRUCT-03 and STRUCT-04 specifically motivate measuring interchain geometry, not merely dimer abundance. STRUCT-02 argues against assuming gross failure to assemble. No interface mutation is yet justified because candidate interface substitutions were not supplied. Interaction-function tests derive from CTX-04 and CTX-08, not from the models.",
+   "confidence": "low"
+  }
+ ],
+ "overall_note": "Prioritize verification of the reported activity gap and matched preparations before engineering variants. The literature observations are drafts requiring verification; effect size and original assay conditions are not provided. Structural predictions prioritize tests but establish neither catalytic mechanisms nor preserved pig functions. DNA binding, DNA editing, DNA cleavage, localization, and TLR9-related effects require distinct measurements."
+}

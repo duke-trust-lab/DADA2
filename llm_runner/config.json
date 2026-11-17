@@ -1,7 +1,7 @@
 {
   "_comment": "Edit this file, not the code. Formal runs are refused until 'frozen' is true, the model is set, and the draft text files are final. Pilot runs are allowed any time.",
-  "frozen": false,
-  "prompt_version": "v0.1_DRAFT",
+  "frozen": true,
+  "prompt_version": "v1.0",
 
   "model": "gpt-6-astra",
   "reasoning_effort": "medium",
@@ -17,10 +17,10 @@
   "pricing_usd_per_million_tokens": {"input": null, "output": null},
 
   "files": {
-    "system_prompt": "prompts/system_prompt_v0.1_DRAFT.md",
-    "task_prompt": "prompts/task_prompt_v0.1_DRAFT.md",
+    "system_prompt": "prompts/system_prompt_v1.0.md",
+    "task_prompt": "prompts/task_prompt_v1.0.md",
     "output_schema": "prompts/output_schema.json",
-    "shared_context": "context/shared_context_v0.1_DRAFT.md"
+    "shared_context": "context/shared_context_v1.0.md"
   },
 
   "evidence_files": {

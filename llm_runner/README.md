@@ -11,14 +11,14 @@ Runs the language-model experiment in a repeatable way: builds each condition's 
 | `LLM_model_check.ipynb` | Staged tests to run when changing the model: key and model access, a tiny call, which settings the model accepts | Ready |
 | `runner/llm_runner.py` | The runner (also a command-line tool) | Tested offline with a fake model and against the real API (pilot with `gpt-6-astra`) |
 | `runner/build_structure_evidence.py` | Builds the A3 evidence package from the saved AlphaFold results | Ready |
-| `config.json` | Model, settings, file paths, condition definitions, `frozen` switch | `model` is `gpt-6-astra`; `frozen` is `false` |
-| `prompts/system_prompt_v0.1_DRAFT.md` | Rules the model must follow | DRAFT; Sienna and Dr. Bent to finalize |
-| `prompts/task_prompt_v0.1_DRAFT.md` | Task text with slots for context and evidence | DRAFT |
+| `config.json` | Model, settings, file paths, condition definitions, `frozen` switch | `model` is `gpt-6-astra`; `frozen` is `true` (prompt v1.0) |
+| `prompts/system_prompt_v1.0.md` | Rules the model must follow | v1.0, frozen |
+| `prompts/task_prompt_v1.0.md` | Task text with slots for context and evidence | v1.0, frozen |
 | `prompts/output_schema.json` | Required JSON format (the packet's hypothesis-card fields) | DRAFT |
-| `context/shared_context_v0.1_DRAFT.md` | Shared background, identical in all five conditions | DRAFT; every CTX record must be verified |
+| `context/shared_context_v1.0.md` | Shared background, identical in all five conditions | v1.0, frozen; every CTX record still needs a second person's check |
 | `evidence/structure_evidence_A3.md` and `..._records_DRAFT.csv` | The 8 structure records (STRUCT-01 to 08) from the AlphaFold track | DRAFT; needs a second person's check |
 | `evidence/sequence_evidence_A1.md`, `surface_evidence_A2.md` | Placeholders for Yang's and Sienna's packages | Waiting |
-| `runs_pilot/`, `runs/`, `runs_mock/` | Saved outputs for pilot, formal, and fake-model runs. `runs_pilot/` holds the first A0 and A3 pilot (see its README); `runs/` is empty; `runs_mock/` is created only by fake-model runs and is not committed | Pilot done |
+| `runs_pilot/`, `runs/`, `runs_mock/` | Saved outputs for pilot, formal, and fake-model runs. `runs_pilot/` is for rehearsal runs and is currently empty (see its README); `runs/` is empty; `runs_mock/` is created only by fake-model runs and is not committed | Pilot done |
 
 ## Setup (once)
 

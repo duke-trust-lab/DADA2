@@ -1,0 +1,62 @@
+{
+ "hypotheses": [
+  {
+   "title": "1. Preparation or assay differences account for much of the apparent pig activity deficit",
+   "question_and_explanation": "Does the difference persist when comparable mature proteins are tested under matched conditions? CTX-01 reports lower pig activity but provides neither effect size nor assay conditions. Different processing and glycosylation annotations (CTX-03), unknown construct identity (CTX-06), and unequal amounts of properly folded, zinc-loaded protein could produce an apparent species difference without intrinsically different catalytic chemistry.",
+   "supporting_evidence_ids": [
+    "CTX-01",
+    "CTX-03",
+    "CTX-06"
+   ],
+   "conflicting_evidence_ids": [],
+   "evidence_notes": "These records establish important uncertainties, not that preparation caused the difference. Confident predicted dimers in STRUCT-02 do not establish folding, assembly, or zinc occupancy in the experimental preparations.",
+   "alternative_explanation": "Pig ADA2 has intrinsically different substrate recognition or catalytic behavior even when preparation, processing, and assay conditions are controlled.",
+   "proposed_test": "Verify the actual constructs and pig sequence, then compare independently prepared human and pig mature ADA2 from the same expression and purification workflow. Measure adenosine-to-inosine conversion across substrate concentrations and a shared range of assay conditions. In parallel, compare protein amount, processing, glycosylation, folding, oligomerization, and zinc occupancy. If a preparation difference emerges, test whether correcting it rescues activity.",
+   "predicted_outcome_if_true": "The activity gap shrinks substantially under matched conditions or tracks a correctable difference in protein quality, processing, zinc occupancy, or assay conditions.",
+   "falsifying_outcome": "A reproducible pig deficit persists across independent preparations with comparable mature protein amounts, folding, assembly, processing, and zinc occupancy and across the tested assay conditions.",
+   "controls_and_feasibility": "Include human ADA2 as a positive control, substrate-only and matched purification blanks, product standards, and independent preparations. Confirm product formation rather than relying solely on an indirect signal. Expression, chromatography, and biochemical characterization are supported by CTX-08 and CTX-09; proteomic and metabolomic core access is described in CTX-10, with cost and turnaround unspecified.",
+   "next_decision": "If matching or correcting preparations rescues pig activity, standardize that variable before pursuing mutations. If the deficit persists, prioritize intrinsic structural and substrate-selectivity tests. If protein quality remains unequal, resolve that uncertainty before interpreting species effects.",
+   "added_value_from_computation": "This hypothesis comes primarily from the background and general biochemical knowledge. STRUCT-02 makes gross incompatibility with a dimeric fold less compelling as a sequence-level explanation, but does not replace experimental quality controls. The models omit glycans and cannot adjudicate preparation effects.",
+   "confidence": "moderate"
+  },
+  {
+   "title": "2. Local sequence differences alter catalytic behavior without destroying the overall fold",
+   "question_and_explanation": "Do sequence differences near the model-shifted regions corresponding to human positions 281 and 347 cause the free-adenosine deficit? STRUCT-08 identifies local predicted differences and nearby substitutions, while STRUCT-03 suggests broadly similar individual chains. Altered substrate access or conformational coupling is a general-knowledge mechanism, not an observation here; neither region has yet been shown to contact the active site.",
+   "supporting_evidence_ids": [
+    "CTX-01",
+    "STRUCT-03",
+    "STRUCT-05",
+    "STRUCT-08"
+   ],
+   "conflicting_evidence_ids": [],
+   "evidence_notes": "STRUCT-08 provides candidate regions, not evidence of catalytic effects. Distances to the active site, interface, and glycosylation sites are not provided. STRUCT-03 and STRUCT-04 also support considering a modest predicted dimer rearrangement as an alternative. The largest terminal and insertion-region deviations are less secure because of alignment and confidence limitations (STRUCT-06, STRUCT-07).",
+   "alternative_explanation": "The local shifts are functionally neutral; the activity gap instead reflects dimer geometry, another sequence difference, or unequal folding, processing, glycans, zinc occupancy, or protein amount.",
+   "proposed_test": "After validating the construct alignment, locate the STRUCT-08 candidates relative to the catalytic site and interface. Make reciprocal species-residue substitutions in the two candidate regions, initially testing the regions separately. Compare adenosine concentration-response kinetics with both wild types, alongside folding, assembly, processing, and zinc occupancy. Use a solution structural comparison if altered dimer arrangement remains a plausible explanation.",
+   "predicted_outcome_if_true": "Humanizing a pig candidate region increases free-adenosine activity, while the reciprocal human change reduces it, without corresponding losses or gains in protein quality or abundance. Kinetic changes would distinguish altered apparent substrate dependence from altered maximal turnover, although neither alone proves a microscopic mechanism.",
+   "falsifying_outcome": "Reciprocal changes have no reproducible effect despite verified protein quality, or apparent rescue is explained entirely by improved folding, zinc occupancy, or assembly. This would weaken these specific candidates, not exclude all sequence-based mechanisms.",
+   "controls_and_feasibility": "Use verified alignments, wild-type proteins, independent mutant preparations, matched mature constructs and tags, direct product measurements, and quality controls from hypothesis 1. Do not assign pig mutation coordinates from unverified numbering. Recombinant work is supported by CTX-08 and CTX-09; specific solution-structure access and scheduling would need confirmation.",
+   "next_decision": "If reciprocal effects occur without quality changes, dissect the responsible substitutions and test their effect on other substrates. If effects track assembly, redirect toward a dimer-mediated mechanism. If candidates are neutral, stop expanding this mutational panel and reassess other differences rather than targeting uncertain terminal shifts.",
+   "added_value_from_computation": "STRUCT-08 specifically prioritizes the regions around human 281 and 347; STRUCT-05 supports their reproducibility across model runs. STRUCT-07 discourages prioritizing the larger but less reliable terminal and insertion-region shifts. STRUCT-04 makes direct template use alone a less likely explanation for the predicted dimer difference. None establishes a catalytic mechanism.",
+   "confidence": "low"
+  },
+  {
+   "title": "3. Pig ADA2 retains DNA-associated functions despite weak activity on free adenosine",
+   "question_and_explanation": "Is the deficit selective for free adenosine rather than a loss of all ADA2 functions? CTX-04 reports DNA interaction, DNA-associated deoxyadenosine-to-deoxyinosine conversion, and lysosome/TLR9 effects for ADA2, but does not establish these functions in pig. Pig ADA2 might retain DNA binding and possibly DNA editing or downstream cellular effects even if free-substrate turnover is poor. This functional hypothesis can coexist with an intrinsic sequence mechanism.",
+   "supporting_evidence_ids": [
+    "CTX-01",
+    "CTX-04"
+   ],
+   "conflicting_evidence_ids": [],
+   "evidence_notes": "No supplied record measures pig DNA binding, DNA editing, or TLR9 effects. The models contain no DNA or glycans and therefore provide no direct support for these functions. The disease resemblance in CTX-07 motivates testing preserved function but does not identify it.",
+   "alternative_explanation": "Pig ADA2 has broadly impaired catalysis but retains only nonspecific DNA association. Apparent DNA editing could instead reflect contaminating enzymes or free nucleosides, and cellular differences could reflect uptake, processing, protein amount, or glycosylation rather than substrate selectivity.",
+   "proposed_test": "Using the matched preparations from hypothesis 1, measure DNA binding, DNA-associated deoxyinosine formation, and DNA cleavage separately, alongside free-adenosine turnover. Establish that any detected deoxyinosine originated in purified DNA rather than a free-nucleoside pool. If a DNA-associated activity is retained, compare human and pig ADA2 add-back in an ADA2-deficient cellular system, measuring uptake, lysosomal localization, and a TLR9-dependent response.",
+   "predicted_outcome_if_true": "Pig retains DNA binding and, for the stronger substrate-selectivity hypothesis, DNA editing despite its free-adenosine deficit. Comparable cellular effects after controlling delivery would support preserved downstream function. Binding alone would support only preserved association, not editing or cleavage.",
+   "falsifying_outcome": "Pig DNA editing is impaired along with free-adenosine turnover under matched conditions, weakening catalytic substrate selectivity. Failure to detect pig binding also weakens preserved DNA association. Signals that follow contaminants or free nucleosides rather than ADA2 and DNA contradict an ADA2-mediated editing interpretation.",
+   "controls_and_feasibility": "Include human ADA2, no-protein and matched purification controls, protein-dose comparisons, DNA integrity measurements, and independent preparations. Use competition and salt-dependence tests to assess nonspecific association. For cells, control viability, uptake, localization, and TLR9 dependence. Validate pig recognition before using the ADA2 aptamer described in CTX-08. Chromatography, mass spectrometry, and imaging access are described in CTX-09 and CTX-10; DNA-editing assay validation remains necessary.",
+   "next_decision": "If editing is retained, prioritize substrate recognition and DNA-linked cellular rescue. If binding alone is retained, test a noncatalytic interaction role without claiming editing. If neither is retained, deprioritize preserved DNA function and examine broader catalytic impairment or other partners. Advance to animal studies only after resolving the biochemical and cellular alternatives.",
+   "added_value_from_computation": "This hypothesis comes from CTX-04 and general knowledge that macromolecular substrate recognition can differ from free-substrate recognition. The supplied computations do not establish DNA-binding surfaces, DNA editing, lysosomal delivery, or TLR9 regulation and do not justify a specific DNA-interface mutation.",
+   "confidence": "low"
+  }
+ ],
+ "overall_note": "Start with matched-preparation replication: CTX-01 is an unverified draft observation with no reported effect size or assay details, and the collaborators' pig construct may differ from the modeled reference. The hypotheses are not mutually exclusive. Structural predictions prioritize conditional experiments, not conclusions about activity; preserved DNA binding, editing, cleavage, and cellular signaling must be tested separately."
+}

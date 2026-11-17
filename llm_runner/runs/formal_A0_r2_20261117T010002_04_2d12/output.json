@@ -1,0 +1,44 @@
+{
+ "hypotheses": [
+  {
+   "title": "The reported activity gap reflects protein preparation or assay conditions rather than an intrinsic catalytic difference",
+   "question_and_explanation": "Does pig ADA2 have a smaller fraction of correctly processed, folded, assembled, or zinc-loaded protein in the tested preparation? Differences in protein amount, glycosylation, secretion, or assay conditions could lower apparent activity without changing the catalytic competence of properly prepared pig ADA2. Under this explanation, both adenosine deamination and other ADA2 functions could be preserved.",
+   "supporting_evidence_ids": [
+    "CTX-01",
+    "CTX-02",
+    "CTX-03",
+    "CTX-06"
+   ],
+   "conflicting_evidence_ids": [],
+   "evidence_notes": "CTX-01 reports lower pig activity but supplies neither effect size nor assay conditions. CTX-03 documents different signal-peptide and glycosylation annotations, not the processing or glycan occupancy of the tested proteins. CTX-02 establishes zinc participation and human dimerization; pig assembly is unknown. CTX-06 leaves the actual pig construct identity unresolved. None establishes a preparation defect.",
+   "alternative_explanation": "An intrinsic species-dependent change in substrate recognition or catalytic chemistry persists even in equally intact, properly assembled preparations.",
+   "proposed_test": "First verify both construct sequences and mature protein identities. Compare independently prepared human and pig ADA2 using matched expression systems, tags, purification, and assay conditions. Measure adenosine-to-inosine conversion across substrate concentrations and a limited condition range, alongside protein amount, processing, glycan occupancy, folding, oligomeric state, and zinc occupancy. If a preparation difference is identified, change that factor and test whether pig activity is restored.",
+   "predicted_outcome_if_true": "The activity gap shrinks substantially after matching conditions or correcting a demonstrated preparation defect. Activity tracks the abundance of intact, appropriately assembled protein or a measured processing difference rather than species identity alone.",
+   "falsifying_outcome": "A reproducible gap remains across independent preparations after relevant protein-quality, amount, processing, assembly, metal-occupancy, and assay differences are controlled. A proposed corrective intervention changes its intended property but does not improve pig activity.",
+   "controls_and_feasibility": "Include human ADA2 as a positive comparator, no-enzyme and purification-blank controls, product standards, matched tags or tag removal, and checks that product formation is linear with time and enzyme amount. Glycan or metal manipulations require folding controls. Expression, chromatography, and enzymology are supported by CTX-08 and CTX-09; mass-spectrometry cores are available under CTX-10, although specific assay access and turnaround are unstated.",
+   "next_decision": "If a preparation correction removes the gap, standardize production before pursuing species-specific mechanisms or animal studies. If the gap persists, prioritize intrinsic substrate-handling tests. If pig protein remains heterogeneous or misfolded, resolve that limitation before interpreting catalytic differences.",
+   "added_value_from_computation": "No computational evidence was supplied. This experiment follows from the background uncertainties in CTX-01, CTX-03, and CTX-06. The possibility that folding, metal occupancy, or assay conditions alter apparent enzyme activity comes from general scientific knowledge. No particular residue or structural defect is nominated.",
+   "confidence": "low"
+  },
+  {
+   "title": "Pig ADA2 has altered substrate preference while retaining DNA-associated activity",
+   "question_and_explanation": "Could pig ADA2 be intrinsically inefficient on free adenosine yet retain DNA binding and deamination of deoxyadenosine within DNA? Sequence-dependent differences in substrate engagement could affect free and DNA-associated substrates differently. This is a testable substrate-selectivity hypothesis, not evidence that pig ADA2 actually edits DNA.",
+   "supporting_evidence_ids": [
+    "CTX-01",
+    "CTX-02",
+    "CTX-04"
+   ],
+   "conflicting_evidence_ids": [],
+   "evidence_notes": "CTX-01 motivates the free-adenosine comparison, and CTX-04 reports DNA interaction, DNA-associated deamination, and lysosome/TLR9 effects. These observations do not demonstrate any such function in pig ADA2. No supplied alignment or structure comparison identifies a causal species difference. CTX-07 provides disease-model relevance, not evidence of preserved molecular activity.",
+   "alternative_explanation": "Pig ADA2 has broadly reduced catalytic competence but retains only noncatalytic DNA binding. Alternatively, apparent DNA activity results from contaminating enzymes or free nucleotides, while apparent binding reflects nonspecific electrostatics.",
+   "proposed_test": "After preparation matching, compare the orthologs in separate assays for free adenosine turnover, free deoxyadenosine turnover, DNA binding, and formation of deoxyinosine within defined DNA substrates. Measure DNA integrity separately from editing. If a selective biochemical difference is reproducible, align the verified constructs and test reciprocal substitutions or limited region swaps selected from that comparison; no specific candidate can be justified from the supplied evidence.",
+   "predicted_outcome_if_true": "Pig ADA2 remains weak on free adenosine but retains DNA binding and DNA-associated deamination relative to human ADA2, producing a clear species-by-substrate difference. Free deoxyadenosine measurements help distinguish sugar preference from dependence on DNA context. A causal sequence swap shifts substrate preference without disrupting protein quality.",
+   "falsifying_outcome": "Pig activity is reduced comparably on free and DNA-associated substrates after normalization, or DNA-associated product formation disappears when contaminating enzymes and free nucleotides are excluded. Preserved binding without editing would reject the retained-editing component while supporting a narrower noncatalytic-function hypothesis.",
+   "controls_and_feasibility": "Use matched protein amounts and quality controls from the first hypothesis, human ADA2, no-protein and mock-purification controls, product standards, and independent protein preparations. Establish that deoxyinosine derives from the DNA fraction, not residual free nucleosides. Include nucleic-acid competition and ionic-condition comparisons to assess binding specificity. Enzymology and mass-spectrometry resources are described in CTX-08 to CTX-10. If cellular follow-up uses the ADA2 aptamer from CTX-08, validate pig recognition first.",
+   "next_decision": "If DNA editing is preserved, prioritize causal sequence tests and then compare localization and TLR9-linked responses in an ADA2-deficient cellular background, matching uptake and protein abundance. If only binding persists, test a noncatalytic cellular role without calling binding editing or cleavage. If neither persists, prioritize broad catalytic or assembly defects rather than a DNA-selectivity explanation.",
+   "added_value_from_computation": "No computational evidence was supplied. CTX-04 adds the DNA-associated comparison to an experiment otherwise motivated by CTX-01. Distinguishing substrate recognition from chemistry, and using reciprocal substitutions after alignment, are general scientific reasoning. No retained pig function, residue-level mechanism, or structural similarity has been computed or established here.",
+   "confidence": "low"
+  }
+ ],
+ "overall_note": "Two hypotheses are justified; the supplied evidence does not support a specific residue-level or interface mechanism. All literature observations are drafts requiring verification. Establish the activity difference under matched conditions first, then test substrate selectivity. DNA binding, DNA editing, DNA cleavage, and cellular signaling must remain distinct readouts."
+}
