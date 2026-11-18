@@ -1,0 +1,8 @@
+human_position,human_aa,draft_pig_position,sequence_pig_position,sequence_pig_aa,stable,action
+151,P,146,149,P,False,Ambiguous: exclude from residue-specific cross-species claims; assess structural sensitivity
+152,T,147,150,T,False,Ambiguous: exclude from residue-specific cross-species claims; assess structural sensitivity
+153,P,148,151,P,False,Ambiguous: exclude from residue-specific cross-species claims; assess structural sensitivity
+154,R,149,152,K,False,Ambiguous: exclude from residue-specific cross-species claims; assess structural sensitivity
+155,P,150,,-,False,Ambiguous: exclude from residue-specific cross-species claims; assess structural sensitivity
+509,A,506,508,G,False,Ambiguous: exclude from residue-specific cross-species claims; assess structural sensitivity
+510,T,507,509,P,False,Ambiguous: exclude from residue-specific cross-species claims; assess structural sensitivity

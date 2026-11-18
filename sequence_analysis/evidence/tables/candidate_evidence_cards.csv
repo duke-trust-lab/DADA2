@@ -1,0 +1,4 @@
+Human → pig,Selection evidence,Observed change,Human distance range (Å),What remains untested
+N185 → T182,Annotated human glycosylation residue differs,neutral → neutral,15.4–15.6,Pig glycan occupancy and functional effect
+S205 → K202,Chemical-class change in human substrate-binding interval,neutral → basic,11.8–11.9,Direct ligand contact and effect on activity
+E208 → K205,Chemical-class change in human substrate-binding interval,acidic → basic,8.8–10.4,Direct ligand contact and effect on activity

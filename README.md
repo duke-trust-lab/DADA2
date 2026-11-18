@@ -46,3 +46,7 @@ All structural results are predictions. Confidence scores describe how reliable 
 **AlphaFold analysis:**
 1. `pip install -r structure_prediction/requirements.txt`
 2. Put the AlphaFold Server downloads in `structure_prediction/af3_outputs/` (not stored in git), then run `structure_prediction/AF3_results_comparison.ipynb`. The saved tables in `af3_results/` already hold the results.
+
+## Sequence track handoff
+
+[Sequence analysis and integration](sequence_analysis/README.md) contains the executed English notebook, complete residue mappings, annotated differences, SEQ-01–SEQ-08 evidence and reconciliation with the structural draft map. The A1 evidence file is now populated; A2 and mapping-sensitive A3 review remain team integration items.

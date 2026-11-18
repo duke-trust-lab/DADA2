@@ -1,0 +1,46 @@
+{
+  "human_length": 511,
+  "pig_length": 510,
+  "alignment_columns": 516,
+  "alignment_counts": {
+    "match": 356,
+    "substitution": 149,
+    "gap": 11
+  },
+  "identity_including_gaps": 0.689922480620155,
+  "property_flag_counts": {
+    "class_change": 61,
+    "charge_reversal": 10,
+    "hydrophobic_category_change": 39,
+    "proline_change": 3,
+    "glycine_change": 10,
+    "negative_BLOSUM62": 49
+  },
+  "candidate_human_positions": [
+    185,
+    205,
+    208
+  ],
+  "candidate_count": 3,
+  "uncertain_human_positions": [
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    509,
+    510
+  ],
+  "QC": {
+    "input_hashes_verified": true,
+    "sequence_reconstruction": true,
+    "full_residue_coverage": true,
+    "paired_mapping_roundtrip": true,
+    "matches_previous_baseline": true,
+    "all_tested_optima_enumerated": true,
+    "SIFTS_vs_mmcif_checked": true,
+    "candidate_mapping_stable": true,
+    "candidate_coordinates_in_four_chains": true
+  }
+}

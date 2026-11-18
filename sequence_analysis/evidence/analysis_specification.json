@@ -1,0 +1,44 @@
+{
+  "alignment": "global BLOSUM62",
+  "gap_settings": [
+    [
+      -10,
+      -0.5
+    ],
+    [
+      -8,
+      -0.5
+    ],
+    [
+      -12,
+      -0.5
+    ],
+    [
+      -10,
+      -1
+    ]
+  ],
+  "charge_classes": {
+    "acidic": "DE",
+    "basic": "KR",
+    "histidine": "H",
+    "neutral": "all other standard amino acids"
+  },
+  "hydrophobic_category": "AVILMFWY",
+  "anchors_human": [
+    112,
+    114,
+    356,
+    359,
+    384,
+    441
+  ],
+  "distance": "minimum heavy-atom within same chain; model 1; alternate blank/A",
+  "distance_cutoffs_A": [
+    4,
+    5,
+    6
+  ],
+  "selection": "stable AND (annotated human glycosylation substitution OR chemical-class change at annotated substrate-binding position)",
+  "selection_status": "exploratory; not preregistered"
+}

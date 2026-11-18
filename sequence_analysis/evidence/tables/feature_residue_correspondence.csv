@@ -1,0 +1,184 @@
+alignment_column,human_position,human_aa,pig_position,pig_aa,kind,blosum62,unique_across_baseline_optima,stable_across_tested_parameters,type,start,end,description,evidence_codes,references,source
+1,1,M,1.0,M,match,5.0,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+2,2,L,,-,gap,,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+3,3,V,,-,gap,,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+4,4,D,,-,gap,,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+5,5,G,,-,gap,,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+6,6,P,,-,gap,,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+7,7,S,2.0,S,match,4.0,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+8,8,E,3.0,G,substitution,-2.0,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+9,9,R,4.0,W,substitution,-3.0,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+10,10,P,5.0,P,match,7.0,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+11,11,A,6.0,V,substitution,0.0,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+12,12,L,7.0,L,match,4.0,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+13,13,C,8.0,P,substitution,-3.0,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+14,14,F,9.0,A,substitution,-2.0,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+15,15,L,10.0,L,match,4.0,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+16,16,L,11.0,L,match,4.0,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+17,17,L,12.0,L,match,4.0,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+18,18,A,13.0,A,match,4.0,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+19,19,V,14.0,V,match,4.0,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+20,20,A,15.0,A,match,4.0,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+21,21,M,16.0,M,match,5.0,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+22,22,S,17.0,S,match,4.0,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+23,23,F,18.0,S,substitution,-2.0,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+24,24,F,19.0,F,match,6.0,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+25,25,G,20.0,H,substitution,-2.0,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+26,26,S,21.0,S,match,4.0,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+27,27,A,22.0,A,match,4.0,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+28,28,L,23.0,T,substitution,-1.0,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+29,29,S,24.0,S,match,4.0,True,True,Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+30,30,I,25.0,R,substitution,-3.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+31,31,D,26.0,D,match,6.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+32,32,E,27.0,E,match,5.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+33,33,T,28.0,E,substitution,-1.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+34,34,R,29.0,R,match,5.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+35,35,A,30.0,N,substitution,-2.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+36,36,H,31.0,R,substitution,0.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+37,37,L,32.0,L,match,4.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+38,38,L,33.0,L,match,4.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+39,39,L,34.0,M,substitution,2.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+40,40,K,35.0,R,substitution,2.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+41,41,E,36.0,E,match,5.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+42,42,K,37.0,K,match,5.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+43,43,M,38.0,M,match,5.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+44,44,M,39.0,M,match,5.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+45,45,R,40.0,Q,substitution,1.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+46,46,L,41.0,V,substitution,1.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+47,47,G,42.0,G,match,6.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+48,48,G,43.0,G,match,6.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+49,49,R,44.0,Q,substitution,1.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+50,50,L,45.0,L,match,4.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+51,51,V,46.0,V,match,4.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+52,52,L,47.0,L,match,4.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+53,53,N,48.0,Q,substitution,0.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+54,54,T,49.0,E,substitution,-1.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+55,55,K,50.0,E,substitution,1.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+56,56,E,51.0,E,match,5.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+57,57,E,52.0,E,match,5.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+58,58,L,53.0,R,substitution,-2.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+59,59,A,54.0,A,match,4.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+60,60,N,55.0,N,match,6.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+61,61,E,56.0,G,substitution,-2.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+62,62,R,57.0,R,match,5.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+63,63,L,58.0,L,match,4.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+64,64,M,59.0,Q,substitution,0.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+65,65,T,60.0,A,substitution,0.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+66,66,L,61.0,L,match,4.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+67,67,K,62.0,K,match,5.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+68,68,I,63.0,E,substitution,-3.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+69,69,A,64.0,A,match,4.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+70,70,E,65.0,E,match,5.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+71,71,M,66.0,M,match,5.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+72,72,K,67.0,Q,substitution,1.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+73,73,E,68.0,E,match,5.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+74,74,A,69.0,A,match,4.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+75,75,M,70.0,K,substitution,-1.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+76,76,R,71.0,R,match,5.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+77,77,T,72.0,T,match,5.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+78,78,L,73.0,G,substitution,-4.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+79,79,I,74.0,I,match,4.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+80,80,F,75.0,F,match,6.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+81,81,P,76.0,P,match,7.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+82,82,P,77.0,P,match,7.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+83,83,S,78.0,S,match,4.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+84,84,M,79.0,L,substitution,2.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+85,85,H,80.0,H,match,8.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+86,86,F,81.0,F,match,6.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+87,87,F,82.0,F,match,6.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+88,88,Q,83.0,Q,match,5.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+89,89,A,84.0,A,match,4.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+90,90,K,85.0,K,match,5.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+91,91,H,86.0,G,substitution,-2.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+92,92,L,87.0,L,match,4.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+93,93,I,88.0,M,substitution,1.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+94,94,E,89.0,E,match,5.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+95,95,R,90.0,K,substitution,2.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+96,96,S,91.0,S,match,4.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+97,97,Q,92.0,A,substitution,-1.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+98,98,V,93.0,V,match,4.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+99,99,F,94.0,F,match,6.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+100,100,N,95.0,N,match,6.0,True,True,Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+127,127,N,122.0,N,match,6.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+128,128,V,123.0,A,substitution,0.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+129,129,T,124.0,T,match,5.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+130,130,Y,125.0,Y,match,7.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+131,131,R,126.0,R,match,5.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+132,132,P,127.0,P,match,7.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+133,133,H,128.0,Y,substitution,2.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+134,134,C,129.0,C,match,9.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+135,135,H,130.0,Y,substitution,2.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+136,136,I,131.0,F,substitution,0.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+137,137,C,132.0,C,match,9.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+138,138,F,133.0,L,substitution,0.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+139,139,T,134.0,T,match,5.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+140,140,P,135.0,P,match,7.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+141,141,R,136.0,K,substitution,2.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+142,142,G,137.0,G,match,6.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+143,143,I,138.0,A,substitution,-1.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+144,144,M,139.0,T,substitution,-1.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+145,145,Q,140.0,Q,match,5.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+146,146,F,141.0,F,match,6.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+147,147,R,142.0,K,substitution,2.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+148,148,F,143.0,F,match,6.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+149,149,A,144.0,A,match,4.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+150,150,H,145.0,H,match,8.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+154,151,P,149.0,P,match,7.0,False,False,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+155,152,T,150.0,T,match,5.0,False,False,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+156,153,P,151.0,P,match,7.0,False,False,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+157,154,R,152.0,K,substitution,2.0,False,False,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+158,155,P,,-,gap,,False,False,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+159,156,S,153.0,Q,substitution,0.0,False,False,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+160,157,E,154.0,E,match,5.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+161,158,K,155.0,E,substitution,1.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+162,159,C,156.0,C,match,9.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+163,160,S,157.0,S,match,4.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+164,161,K,158.0,E,substitution,1.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+165,162,W,159.0,W,match,11.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+166,163,I,160.0,V,substitution,3.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+167,164,L,161.0,L,match,4.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+168,165,L,162.0,L,match,4.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+169,166,E,163.0,E,match,5.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+170,167,D,164.0,K,substitution,-1.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+171,168,Y,165.0,F,substitution,3.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+172,169,R,166.0,R,match,5.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+173,170,K,167.0,K,match,5.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+174,171,R,168.0,G,substitution,-2.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+175,172,V,169.0,L,substitution,1.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+176,173,Q,170.0,P,substitution,-1.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+177,174,N,171.0,N,match,6.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+178,175,V,172.0,V,match,4.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+179,176,T,173.0,T,match,5.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+180,177,E,174.0,E,match,5.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+181,178,F,175.0,F,match,6.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+182,179,D,176.0,D,match,6.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+183,180,D,177.0,N,substitution,1.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+184,181,S,178.0,S,match,4.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+185,182,L,179.0,L,match,4.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+186,183,L,180.0,L,match,4.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+187,184,R,181.0,R,match,5.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+188,185,N,182.0,T,substitution,0.0,True,True,Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+362,359,E,356.0,E,match,5.0,True,True,Active site,359,359,Proton donor,ECO:0000305,,UniProt Q9NZK5 frozen 2026-11-03
+387,384,H,381.0,H,match,8.0,True,True,Active site,384,384,Proton acceptor,ECO:0000305,,UniProt Q9NZK5 frozen 2026-11-03
+112,112,H,107.0,H,match,8.0,True,True,Binding site,112,112,Zn(2+),not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+114,114,H,109.0,H,match,8.0,True,True,Binding site,114,114,Zn(2+),not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+115,115,D,110.0,D,match,6.0,True,True,Binding site,115,115,substrate,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+207,204,W,201.0,W,match,11.0,True,True,Binding site,204,211,substrate,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+208,205,S,202.0,K,substitution,0.0,True,True,Binding site,204,211,substrate,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+209,206,K,203.0,K,match,5.0,True,True,Binding site,204,211,substrate,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+210,207,F,204.0,F,match,6.0,True,True,Binding site,204,211,substrate,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+211,208,E,205.0,K,substitution,1.0,True,True,Binding site,204,211,substrate,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+212,209,T,206.0,T,match,5.0,True,True,Binding site,204,211,substrate,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+213,210,I,207.0,I,match,4.0,True,True,Binding site,204,211,substrate,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+214,211,F,208.0,F,match,6.0,True,True,Binding site,204,211,substrate,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+296,293,H,290.0,H,match,8.0,True,True,Binding site,293,293,substrate,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+329,326,G,323.0,G,match,6.0,True,True,Binding site,326,326,substrate,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+359,356,H,353.0,H,match,8.0,True,True,Binding site,356,356,Zn(2+),not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+444,441,D,438.0,D,match,6.0,True,True,Binding site,441,441,Zn(2+),not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+445,442,D,439.0,D,match,6.0,True,True,Binding site,442,442,substrate,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+127,127,N,122.0,N,match,6.0,True,True,Glycosylation,127,127,N-linked (GlcNAc...) asparagine,ECO:0000269,PubMed:20147294,UniProt Q9NZK5 frozen 2026-11-03
+177,174,N,171.0,N,match,6.0,True,True,Glycosylation,174,174,N-linked (GlcNAc...) asparagine,ECO:0000269,PubMed:19159218,UniProt Q9NZK5 frozen 2026-11-03
+188,185,N,182.0,T,substitution,0.0,True,True,Glycosylation,185,185,N-linked (GlcNAc...) asparagine,ECO:0000269,PubMed:20147294,UniProt Q9NZK5 frozen 2026-11-03
+381,378,N,375.0,N,match,6.0,True,True,Glycosylation,378,378,N-linked (GlcNAc...) asparagine,ECO:0000269,PubMed:19159218; PubMed:20147294,UniProt Q9NZK5 frozen 2026-11-03
+137,137,C,132.0,C,match,9.0,True,True,Disulfide bond,137,159,,ECO:0000269,PubMed:20147294,UniProt Q9NZK5 frozen 2026-11-03
+162,159,C,156.0,C,match,9.0,True,True,Disulfide bond,137,159,,ECO:0000269,PubMed:20147294,UniProt Q9NZK5 frozen 2026-11-03
