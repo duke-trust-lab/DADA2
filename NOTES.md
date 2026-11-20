@@ -8,7 +8,7 @@ Working notes for the team: what has been decided, what is still open, and what 
 |---|---|
 | AlphaFold 3 (human and pig dimers) | 12 jobs run (60 models) on AlphaFold Server and compared with 3LGD. Results in `structure_prediction/af3_results/`, summary in `structure_prediction/README.md`. |
 | Human-pig position map | Draft only (`structure_prediction/human_pig_position_map_DRAFT.csv`). Yang's alignment is meant to be the official version. |
-| LLM runner | Built and tested with the real model (`gpt-6-astra`). Pilot done for A0 and A3 (one repeat each). A1 (sequence) and A2 (surface) evidence are still placeholders. `config.json` is not frozen, so formal runs are blocked. |
+| LLM runner | Built and tested with the real model (`gpt-6-astra`). Pilot done for A0 and A3 (one repeat each). A2 (surface) evidence is built from the surface track's draft records SURF-01 to SURF-07 (`llm_runner/runner/build_surface_evidence.py`). A1 (sequence) evidence is still a placeholder. `config.json` is not frozen, so formal runs are blocked. |
 | Lab context for the LLM | Lab expertise and capabilities added to the shared context as CTX-07 and CTX-08, from the lab's written reply. Needs verification by a team member. |
 | Review | Medical-team review form and evidence-record/hypothesis templates mentioned in the starter packet are not in the repo. |
 
