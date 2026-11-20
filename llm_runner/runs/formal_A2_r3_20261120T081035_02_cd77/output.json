@@ -1,0 +1,66 @@
+{
+ "hypotheses": [
+  {
+   "title": "1. Preparation, maturation, or assay conditions account for much of the apparent activity difference",
+   "question_and_explanation": "Does pig ADA2 have less correctly matured, folded, metal-loaded, or dimeric protein in the tested preparation rather than intrinsically weaker catalysis? CTX-01 reports lower activity without effect size or assay details. Signal-peptide and glycosylation annotations differ, but actual processing and glycan occupancy are unknown (CTX-03). Preparation-dependent loss of functional enzyme is a general biochemical possibility, not an observed pig ADA2 defect.",
+   "supporting_evidence_ids": [
+    "CTX-01",
+    "CTX-02",
+    "CTX-03",
+    "CTX-06"
+   ],
+   "conflicting_evidence_ids": [],
+   "evidence_notes": "The missing construct and assay information makes this the first explanation to test, not an established mechanism. Glycosylation-site annotations do not establish the glycosylation of either recombinant preparation.",
+   "alternative_explanation": "Pig ADA2 has an intrinsic sequence-dependent catalytic defect that persists after preparation quality and assay conditions are matched.",
+   "proposed_test": "Verify the actual constructs and pig sequence, then compare independently prepared human and pig ADA2 produced with matched expression, tags, and purification. Measure adenosine-to-inosine conversion across substrate concentrations and a shared pH range. Quantify protein amount, mature termini, glycans, folding, oligomeric state, and zinc occupancy. Where a preparation difference is found, change that factor independently and retest activity.",
+   "predicted_outcome_if_true": "The species gap substantially decreases after correcting a preparation difference or using conditions suitable for both proteins. Activity tracks the amount of intact, properly assembled protein or its maturation state rather than species alone.",
+   "falsifying_outcome": "A reproducible activity gap persists across independent, comparably processed and folded preparations with matched protein amount, oligomeric state, zinc occupancy, and assay conditions. This would weaken preparation-based explanations.",
+   "controls_and_feasibility": "Include no-enzyme and mock-purification controls, a human ADA2 reference, product standards, and checks for time and enzyme-concentration linearity. Glycan manipulation requires folding and recovery controls. Expression, purification, HPLC/FPLC, and mass-spectrometry access are described in CTX-08, CTX-09, and CTX-10; specific service availability is not provided.",
+   "next_decision": "If matching preparation rescues activity, standardize production and repeat other functional comparisons before mutagenesis. If the gap persists, prioritize intrinsic kinetic and substrate-selectivity experiments. If a single preparation feature correlates with activity, test its causal contribution before attributing the difference to sequence.",
+   "added_value_from_computation": "This experiment comes primarily from the background and general biochemical knowledge. SURF-05 and SURF-07 specifically prevent interpreting the calculated negative active-site potential as evidence of a pig catalytic defect: zinc was removed and glycans were absent.",
+   "confidence": "moderate"
+  },
+  {
+   "title": "2. Pig ADA2 has altered substrate handling, with DNA-associated deamination potentially preserved",
+   "question_and_explanation": "After preparation effects are excluded, does pig ADA2 handle free adenosine poorly while retaining activity toward deoxyadenosine within DNA? Lower free-adenosine activity is reported in CTX-01, and DNA-associated deamination is reported for ADA2 in CTX-04. Differential substrate recognition or catalytic dynamics is a general mechanistic possibility; no supplied evidence identifies a causal active-site substitution or demonstrates pig DNA editing.",
+   "supporting_evidence_ids": [
+    "CTX-01",
+    "CTX-02",
+    "CTX-04"
+   ],
+   "conflicting_evidence_ids": [],
+   "evidence_notes": "The records motivate testing substrate selectivity but do not establish it. SURF-05 is explicitly uninformative about species-specific catalytic chemistry and is neither supporting nor conflicting evidence.",
+   "alternative_explanation": "Pig ADA2 is generally catalytically impaired across substrates. Alternatively, apparent DNA editing reflects free nucleoside contamination or a copurifying enzyme rather than modification of DNA.",
+   "proposed_test": "Using the quality-controlled preparations from hypothesis 1, compare concentration-dependent free-adenosine turnover, DNA binding, and formation of deoxyinosine in DNA as separate measurements. Establish that the product is associated with purified DNA before analytical digestion. Assess DNA integrity separately so that cutting is not mistaken for editing. Free deoxyadenosine can provide an additional substrate comparison to distinguish sugar preference from DNA-context effects.",
+   "predicted_outcome_if_true": "Pig ADA2 remains weak on free adenosine but shows reproducible DNA-associated deamination with a smaller species deficit. Concentration-dependent measurements distinguish impaired apparent substrate utilization from a lower maximal turnover rate.",
+   "falsifying_outcome": "Pig ADA2 loses DNA-associated deamination to a similar or greater extent than free-adenosine turnover, or the apparent DNA product disappears after removal of free nucleosides and contaminants. Comparable activity on all substrates after quality matching would instead favor hypothesis 1.",
+   "controls_and_feasibility": "Use human ADA2, no-enzyme, mock-purification, substrate-only, and DNA-processing blanks; include an independently validated catalytically impaired ADA2 control with checked folding. Confirm comparable protein amount, processing, glycans, assembly, and stability under each assay condition. HPLC and mass-spectrometry access support product analysis (CTX-09, CTX-10), although a validated DNA-editing assay is not documented.",
+   "next_decision": "If DNA editing is relatively preserved, prioritize substrate-recognition studies and then cellular relevance. If both activities are reduced, investigate a shared catalytic or assembly defect rather than substrate specialization. If only binding survives, pursue the noncatalytic-function hypothesis below.",
+   "added_value_from_computation": "The substrate-selectivity hypothesis comes from CTX-01 and CTX-04 plus general enzymology. The surface calculations do not nominate a credible catalytic mutation; their zinc omission argues against selecting active-site mutations from these maps.",
+   "confidence": "low"
+  },
+  {
+   "title": "3. Pig ADA2 retains DNA binding or partner-dependent cellular effects despite altered surface electrostatics",
+   "question_and_explanation": "Could pig ADA2 retain a noncatalytic interaction function even if free-adenosine turnover is intrinsically low? Calculated pig surfaces are less positive in several regions, suggesting altered rather than necessarily absent polyanion interactions (SURF-01 through SURF-04). The strongest exploratory candidate contains human Arg395 aligned to pig Trp392 (SURF-03). Electrostatic contributions to binding are a general scientific rationale. This hypothesis addresses preserved function; surface charge alone does not explain weak free-adenosine catalysis.",
+   "supporting_evidence_ids": [
+    "CTX-04",
+    "SURF-01",
+    "SURF-02",
+    "SURF-03",
+    "SURF-04",
+    "SURF-06"
+   ],
+   "conflicting_evidence_ids": [],
+   "evidence_notes": "No pig binding or cellular-function measurement is supplied. SURF-03 uses sparse sampling and a protonation-sensitive region; SURF-07 documents missing glycans, missing zinc, and only one pH. Thus, neither binding specificity nor preservation of function follows from these calculations.",
+   "alternative_explanation": "The modeled differences are preparation or protonation artifacts, or they affect only nonspecific electrostatic adsorption. Any cellular difference could instead reflect secretion, uptake, stability, glycosylation, or unequal protein exposure.",
+   "proposed_test": "First compare human and pig DNA binding across ionic strengths, using unrelated polyanion competitors. After verifying the construct correspondence, test reciprocal human R395W and pig W392R substitutions for effects on binding and free-adenosine turnover separately. If pig binding is retained, compare localization and a TLR9-linked response in a common ADA2-deficient cellular background, including a validated catalytically impaired control to ask whether the response requires catalysis.",
+   "predicted_outcome_if_true": "Pig ADA2 retains measurable binding, potentially weaker or more salt-sensitive than human ADA2. Reciprocal substitutions shift binding in opposite directions without necessarily changing free-adenosine turnover. A cellular response persists with pig ADA2 and with catalytically impaired ADA2 at comparable cellular exposure.",
+   "falsifying_outcome": "No pig binding is detectable under conditions where human binding is robust, or cellular effects require catalytic activity. Failure of reciprocal substitutions to affect binding despite preserved protein quality weakens the specific Arg395/Trp392 mechanism, though not every possible interaction mechanism.",
+   "controls_and_feasibility": "Include wild-type proteins, no-protein and mock-purification controls, unrelated polyanions, folding and dimerization checks, and matched processing, glycans, and protein amount. For cellular studies, measure uptake and localization and include a TLR9-dependence control. Validate equal species recognition before using the ADA2 aptamer (CTX-08). Cell biology and microscopy capabilities are available (CTX-08 through CTX-10).",
+   "next_decision": "If reciprocal substitutions selectively alter binding, prioritize this patch and test whether binding changes predict cellular effects. If binding survives but editing does not, focus on noncatalytic interaction functions. If neither binding nor cellular effects survive, do not infer preserved DNA-related function from the models.",
+   "added_value_from_computation": "SURF-03 nominates a concrete reciprocal mutation pair rather than an unguided surface screen; SURF-06 motivates ionic-strength comparisons. SURF-02 shows that basic-residue counts alone are insufficient. These calculations prioritize tests but do not demonstrate binding or explain the reported catalytic difference.",
+   "confidence": "low"
+  }
+ ],
+ "overall_note": "Start with matched preparations and direct product measurements because CTX-01 lacks an effect size, assay conditions, and raw data, and the literature observations are flagged for verification. Proceed to substrate selectivity and surface-mutant experiments only after confirming the species difference. Similar inflammatory disease in ADA2-deficient pigs (CTX-07) motivates conserved-function studies but does not identify which molecular function is conserved."
+}

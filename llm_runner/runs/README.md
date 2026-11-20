@@ -1,4 +1,4 @@
-# Hypotheses from the formal runs (A0 and A3)
+# Hypotheses from the formal runs (A0, A2 and A3)
 
 Written for: the medical and lab team reviewing the model's hypotheses.
 
@@ -12,7 +12,7 @@ These are hypotheses written by an AI model (`gpt-6-astra`), not findings about 
 | Runs | 3 (r1, r2, r3) | 3 (r1, r2, r3) |
 | Hypotheses returned | 2, 2, 3 | 3, 3, 3 |
 
-Prompt `v1.0`, reasoning effort medium, same settings in every run. The runs were done on 2026-11-17 in random order. Every run completed, and no run cited an evidence ID it was not given. A1 (sequence), A2 (surface) and A4 (all three) have not been run, because the sequence and surface evidence are not ready.
+Prompt `v1.0`, reasoning effort medium, same settings in every run. The runs were done on 2026-11-17 in random order. Every run completed, and no run cited an evidence ID it was not given. A1 (sequence) and A4 (all three) have not been run, because the sequence evidence is not ready.
 
 **Question the model was asked:** which differences between human and pig ADA2 could explain the reported lower activity of pig ADA2 on free adenosine, and what other functions might pig ADA2 keep?
 
@@ -88,3 +88,7 @@ Each run folder (for example `formal_A3_r1_20261117T005705_01_d0a9/`) holds:
 | `run.json` | Settings, hashes, token counts and status |
 
 `run_log.csv` has one row per run. `plan_*.json` records the random run order and the settings. Each hypothesis in `output.md` also has the evidence IDs it cited, a possible alternative explanation, what outcome would be expected if it were true, controls and feasibility, and the next decision.
+
+## A2 (surface evidence) added 2026-11-20
+
+A2 was run 3 times (`formal_A2_r1_...`, `r2`, `r3`) with the same frozen v1.0 prompt and settings. It returned 2, 3 and 3 hypotheses, with no cited ID the model was not given. Preparation differences and altered substrate preference with DNA activity kept appeared in all three, as in A0 and A3. A fifth idea appeared only here: pig has a less positive surface than human around human Arg395 (aligned pig Trp392), which may change DNA or polyanion binding independently of free-adenosine catalysis. It appeared as a separate hypothesis in r2 and r3 (confidence low) and as a test arm in r1. Proposed test: reciprocal human R395W and pig W392R substitutions with DNA binding, DNA editing and free-adenosine activity measured separately. The surface records (SURF-01 to SURF-07) are draft, and the Arg395 region was chosen after inspecting the data.

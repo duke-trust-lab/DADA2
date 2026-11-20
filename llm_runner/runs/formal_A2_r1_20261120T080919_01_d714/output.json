@@ -1,0 +1,48 @@
+{
+ "hypotheses": [
+  {
+   "title": "1. Preparation or maturation differences account for much of the apparent pig activity deficit",
+   "question_and_explanation": "Does pig ADA2 remain less active when comparable amounts of properly processed, folded protein are tested under matched conditions? CTX-01 reports lower activity but provides neither an effect size nor assay conditions. Different signal-peptide processing, glycosylation, folding, dimerization, metal occupancy, or protein quantification could produce an apparent species difference. Human and pig processing and glycosylation annotations differ (CTX-03), but the actual preparations are unknown.",
+   "supporting_evidence_ids": [
+    "CTX-01",
+    "CTX-02",
+    "CTX-03",
+    "CTX-06"
+   ],
+   "conflicting_evidence_ids": [],
+   "evidence_notes": "These records establish important confounders, not that any confounder caused the reported result. The pig reference sequence has not been confirmed against the experimental construct (CTX-06). No supplied measurement compares preparation quality between species.",
+   "alternative_explanation": "Pig ADA2 has an intrinsic difference in substrate handling or catalysis that persists after preparation, protein amount, and assay conditions are matched.",
+   "proposed_test": "First verify both recombinant construct sequences and mature termini. Compare independently prepared human and pig ADA2 made in a common expression system with matched tags and purification. Measure adenosine-to-inosine conversion across substrate concentrations and a shared range of assay conditions, alongside protein amount, folding, oligomeric state, glycosylation, and zinc occupancy. Where a quality difference is found, test whether correcting that difference restores pig activity.",
+   "predicted_outcome_if_true": "The activity gap substantially narrows after matching competent protein amounts or correcting processing, assembly, glycosylation, or metal loading. Activity tracks preparation quality more closely than species identity. This would leave open preservation of both free-adenosine catalysis and other functions in properly matured pig ADA2.",
+   "falsifying_outcome": "A reproducible species difference persists across independent preparations with comparable folding, processing, dimerization, metal occupancy, and protein amounts under matched conditions. This would weaken preparation differences as the main explanation.",
+   "controls_and_feasibility": "Include human ADA2 as a positive control, no-enzyme and mock-purification controls, product standards, and time/enzyme-amount linearity checks. Any glycan or metal manipulation needs sham-treated controls and renewed folding checks. Expression, purification, HPLC/FPLC, and shared proteomics capabilities are described in CTX-08, CTX-09, and CTX-10; specific access and costs are not provided.",
+   "next_decision": "If correction rescues pig activity, standardize the corrected preparation and reassess other functions before pursuing catalytic mutations. If the gap persists, prioritize intrinsic substrate-selectivity experiments. Partial rescue would justify separating preparation-dependent and residual species effects.",
+   "added_value_from_computation": "This hypothesis comes primarily from background records and general biochemical knowledge about protein quality and enzyme assays. SURF-05 and SURF-07 specifically prevent interpreting the calculated negative active-site potentials as evidence of defective pig chemistry: zinc was omitted. The supplied surface calculations do not establish folding, glycan occupancy, dimer stability, or catalytic competence.",
+   "confidence": "low"
+  },
+  {
+   "title": "2. Pig ADA2 has an intrinsic substrate-selectivity difference but retains DNA-associated activity",
+   "question_and_explanation": "Could pig ADA2 handle free adenosine poorly while retaining DNA binding and deamination of DNA-associated deoxyadenosine? Lower free-adenosine activity is reported in CTX-01, and DNA interaction and editing are reported for ADA2 in CTX-04. Selective retention in pig is a testable extrapolation, not an observation. The supplied evidence does not identify a causal active-site substitution. Surface differences also make it important to separate DNA recruitment from chemistry after binding.",
+   "supporting_evidence_ids": [
+    "CTX-01",
+    "CTX-02",
+    "CTX-04"
+   ],
+   "conflicting_evidence_ids": [
+    "SURF-01",
+    "SURF-03",
+    "SURF-04"
+   ],
+   "evidence_notes": "No pig DNA-binding or DNA-editing result is supplied. The less positive calculated pig surface could oppose equal DNA recruitment, but does not exclude residual binding or preserved editing once DNA is bound. These are predictions, not binding measurements. SURF-03 is exploratory and sensitive to sparse sampling and histidine protonation; all supplied maps omit glycans and zinc (SURF-07).",
+   "alternative_explanation": "Pig ADA2 is generally less catalytically competent rather than selectively impaired on free adenosine. Alternatively, apparent differences in DNA editing arise from DNA binding, protein preparation, or contaminating enzymes rather than substrate-specific chemistry.",
+   "proposed_test": "Using quality-matched preparations from hypothesis 1, compare free-adenosine kinetics, DNA binding, and formation of deoxyinosine within purified DNA as separate endpoints. Measure editing across DNA concentrations and interpret it alongside measured binding or occupancy, rather than comparing one DNA concentration alone. Independently assess DNA cleavage. If a binding difference emerges, test human R395W and pig W392R as reciprocal probes of the surface region identified in SURF-03, measuring binding, editing, free-adenosine activity, and protein quality for each.",
+   "predicted_outcome_if_true": "Pig ADA2 retains reproducible DNA binding and DNA editing despite its persistent free-adenosine deficit; its relative editing deficit is smaller when DNA recruitment is accounted for. Surface substitutions may change binding and apparent editing without a corresponding change in free-adenosine activity, distinguishing recruitment from catalytic substrate selectivity.",
+   "falsifying_outcome": "Pig ADA2 loses DNA editing to a similar extent as free-adenosine activity even when DNA occupancy and protein quality are comparable, favoring a general catalytic defect. If pig DNA binding persists but editing is absent, only the binding-preservation part remains supported. Failure of the reciprocal substitutions to affect binding would weaken the proposed role of that specific surface residue, not exclude other binding surfaces.",
+   "controls_and_feasibility": "Use human ADA2, no-enzyme, mock-purification, and folding-validated catalytically inactive controls. Include nucleic-acid competition and matched ionic conditions to distinguish broadly electrostatic association from preferential binding. Remove free nucleosides before assessing DNA-associated product and include DNA-processing blanks and an independent cleavage readout to exclude free-substrate conversion or nuclease contamination. Check mutant folding, dimerization, processing, glycosylation, and amount. Purification and shared mass-spectrometry capabilities are available in principle (CTX-08 to CTX-10); a validated DNA-editing assay is not documented.",
+   "next_decision": "If selective DNA editing is retained, test whether pig ADA2 restores DNA-associated cellular responses in ADA2-deficient cells, controlling uptake and localization before interpreting TLR9 effects. If only binding is retained, pursue a noncatalytic interaction role without claiming preserved editing. If both activities decline together, prioritize general catalytic competence rather than a DNA-specialized function. If surface mutants alter binding alone, map recruitment separately from the free-adenosine mechanism.",
+   "added_value_from_computation": "The substrate-selectivity hypothesis originates from CTX-01 and CTX-04 plus general knowledge that substrate recruitment and catalytic chemistry can be separable. SURF-01, SURF-03, and SURF-04 change the experiment by requiring independent binding measurements and suggest the aligned human Arg395/pig Trp392 pair as a conditional mutational probe. They do not establish that this patch binds DNA, affects the active site, or explains the free-adenosine deficit. SURF-06 provides limited computational robustness across ionic strengths, not experimental validation.",
+   "confidence": "low"
+  }
+ ],
+ "overall_note": "Prioritize matched preparations and direct product measurements before extensive mutagenesis or animal experiments. Only two hypotheses are proposed because no supplied evidence identifies a specific catalytic or dimer-interface lesion. Surface charge provides interaction candidates, not a direct mechanism for reduced free-adenosine activity. Preserved pig DNA binding, DNA editing, or lysosomal/TLR9-related function remains un demonstrated; each requires a separate endpoint. The literature observations are drafts requiring verification, and the magnitude of the reported activity difference is not provided."
+}

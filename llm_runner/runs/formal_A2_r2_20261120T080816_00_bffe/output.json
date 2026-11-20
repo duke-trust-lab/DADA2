@@ -1,0 +1,64 @@
+{
+ "hypotheses": [
+  {
+   "title": "1. Preparation or maturation differences account for much of the apparent activity gap",
+   "question_and_explanation": "Does pig ADA2 appear less active because its preparation contains less correctly processed, folded, metal-loaded or assembled protein? CTX-01 reports lower activity but provides neither effect size nor assay conditions. Signal-peptide and glycosylation annotations differ between species (CTX-03), while the actual constructs are unknown (CTX-06). These observations motivate a preparation explanation; they do not demonstrate it. Correctly prepared pig ADA2 could retain both adenosine deamination and other functions.",
+   "supporting_evidence_ids": [
+    "CTX-01",
+    "CTX-02",
+    "CTX-03",
+    "CTX-06"
+   ],
+   "conflicting_evidence_ids": [],
+   "evidence_notes": "Annotated glycosylation sites are not measurements of glycan occupancy. Human dimerization is established in CTX-02; pig dimerization in these preparations is unknown.",
+   "alternative_explanation": "The proteins have an intrinsic catalytic difference that persists after preparation, protein amount and assay conditions are matched.",
+   "proposed_test": "Verify the actual construct sequences, then compare independently prepared human and pig ADA2 made in a matched expression and purification system. Measure mature termini, glycosylation, protein concentration, folding, oligomeric state and zinc loading alongside direct adenosine-to-inosine conversion across substrate concentrations and compatible assay conditions. If a preparation difference is found, correct that variable and repeat the activity comparison.",
+   "predicted_outcome_if_true": "The activity gap tracks protein quality or maturation and substantially narrows when the implicated preparation variable is corrected.",
+   "falsifying_outcome": "A reproducible gap persists across independent preparations with comparable processing, glycosylation, folding, assembly, zinc loading and protein amount.",
+   "controls_and_feasibility": "Include no-enzyme and mock-purification controls, product standards, independent batches and matched tags or tag removal. Verify that any glycan manipulation preserves folding. Recombinant production and chromatography are available (CTX-08, CTX-09); proteomic and metabolomic core access is described in CTX-10, but scheduling and cost are unknown.",
+   "next_decision": "If the gap narrows, standardize preparation before interpreting species differences. If it persists, prioritize intrinsic kinetics and substrate-selectivity tests. If quality remains unequal, defer residue-level conclusions.",
+   "added_value_from_computation": "This hypothesis comes from the background and general biochemical knowledge. SURF-07 reinforces the need to characterize glycans and metal loading because neither is represented in the supplied electrostatic calculation; it does not predict a preparation defect.",
+   "confidence": "low"
+  },
+  {
+   "title": "2. Pig ADA2 has an intrinsic substrate-selectivity difference, with DNA-associated editing potentially preserved",
+   "question_and_explanation": "Could pig ADA2 process free adenosine poorly while retaining activity on deoxyadenosine within DNA? Lower free-adenosine activity is reported in CTX-01, and DNA-associated deamination is reported for ADA2 in CTX-04. Substrate-selective changes are a general enzymological possibility, not an established property of pig ADA2. No supplied evidence identifies a causal active-site substitution.",
+   "supporting_evidence_ids": [
+    "CTX-01",
+    "CTX-02",
+    "CTX-04"
+   ],
+   "conflicting_evidence_ids": [],
+   "evidence_notes": "CTX-04 does not establish preserved pig activity. SURF-05 is explicitly non-informative about catalytic differences because zinc was omitted and active-site sampling was sparse; it is not conflicting evidence.",
+   "alternative_explanation": "Pig ADA2 is globally less functional because of folding, processing, glycosylation, assembly or metal-loading differences. Alternatively, apparent DNA editing comes from contaminating enzymes or free nucleosides rather than ADA2 acting within DNA.",
+   "proposed_test": "Using quality-matched proteins from hypothesis 1, compare free-adenosine kinetics, DNA binding and formation of deoxyinosine within a defined DNA substrate as separate readouts. Measure DNA integrity independently. Confirm that any product is associated with purified DNA rather than the free-nucleoside fraction.",
+   "predicted_outcome_if_true": "Pig ADA2 remains less active on free adenosine but shows reproducible DNA-associated editing that is relatively preserved compared with its free-adenosine activity deficit.",
+   "falsifying_outcome": "The free-adenosine gap disappears after preparation matching, or pig DNA editing is absent or reduced proportionally under conditions where human editing is detected. Preserved binding alone would not support preserved editing.",
+   "controls_and_feasibility": "Include human ADA2 as a benchmark, no-enzyme and mock-purification controls, matched intact protein amounts, DNA-integrity measurements and validated catalytically impaired ADA2 controls whose folding and binding are checked. Confirm absence of free-nucleoside carryover and contaminating deaminase or nuclease activity. HPLC and mass-spectrometry access support product analysis (CTX-09, CTX-10), although the DNA-specific assay needs validation.",
+   "next_decision": "If selective preservation is observed, investigate substrate recognition before choosing mutations. If only binding survives, pursue a noncatalytic interaction role. If both activities decline together, revisit global catalytic competence and preparation.",
+   "added_value_from_computation": "The hypothesis comes from CTX-01, CTX-04 and general enzymology. SURF-05 and SURF-07 prevent using the calculated active-site potentials to nominate a catalytic mechanism. The supplied computation does not justify a specific active-site mutation.",
+   "confidence": "low"
+  },
+  {
+   "title": "3. Surface-charge differences alter DNA engagement independently of free-adenosine catalysis",
+   "question_and_explanation": "Does pig ADA2 retain DNA binding but with altered affinity because a human positive surface patch is less positive in pig? SURF-03 identifies an exploratory difference around human Arg395 and aligned pig Trp392; SURF-01 and SURF-06 provide broader computational context. This is a hypothesis about a potentially preserved interaction function, not evidence that surface charge explains the free-adenosine gap. Paired assays can test whether the two phenotypes are separable.",
+   "supporting_evidence_ids": [
+    "CTX-04",
+    "SURF-01",
+    "SURF-03",
+    "SURF-06"
+   ],
+   "conflicting_evidence_ids": [],
+   "evidence_notes": "These are calculated potentials, not binding measurements. SURF-03 has sparse sampling and protonation sensitivity; SURF-07 notes absent glycans and zinc. No supplied record demonstrates pig DNA binding or establishes this patch as a DNA interface.",
+   "alternative_explanation": "DNA contacts another surface, glycans mask the proposed patch, or binding is nonspecific electrostatic association. Mutations could instead change folding or dimerization and indirectly affect both assays.",
+   "proposed_test": "After verifying construct alignment, compare wild-type proteins with reciprocal human R395W and pig W392R substitutions. Measure DNA binding across ionic conditions, DNA-associated editing and free-adenosine activity separately. Include unrelated polyanion competition to distinguish broad charge-driven association from preferential DNA engagement.",
+   "predicted_outcome_if_true": "Wild-type pig retains detectable DNA binding but binds less strongly than human under matched conditions. Reciprocal substitutions shift binding in opposite directions without corresponding changes in free-adenosine activity or protein quality. Editing may change through substrate recruitment, but binding alone does not predict editing.",
+   "falsifying_outcome": "Pig shows no detectable binding under conditions supporting human binding, contradicting the preservation component. Unchanged binding after reciprocal substitutions weakens the single-residue mechanism; equal or stronger pig binding weakens the predicted species direction. Effects explained by misfolding do not support a direct interface mechanism.",
+   "controls_and_feasibility": "Use matched protein amounts, processing and glycosylation; verify folding and dimerization for every variant. Include no-protein controls, independent preparations, unrelated polyanions and an orthogonal binding readout. The laboratory has recombinant-protein and nucleic-acid interaction expertise (CTX-08); its existing ADA2 aptamer must not be assumed to recognize pig ADA2 equally.",
+   "next_decision": "If binding changes selectively, map the interaction surface and then test cellular relevance. If free-adenosine activity also changes despite intact protein quality, investigate coupling rather than assuming direct electrostatic effects on catalysis. If results are negative, deprioritize this patch; a single-site negative does not exclude a distributed interface.",
+   "added_value_from_computation": "SURF-03 specifically prioritizes the reciprocal Arg395/Trp392 test over an unguided charge scan. SURF-06 motivates ionic-condition comparisons, but its computational robustness is not biological validation. General electrostatic reasoning motivates polyanion competition. The computation does not establish preserved DNA editing, cleavage or TLR9 regulation.",
+   "confidence": "low"
+  }
+ ],
+ "overall_note": "Prioritize construct verification and matched preparations, then paired substrate assays; pursue surface mutations as a targeted interaction test. CTX-01 lacks effect size, raw data and assay conditions, and the literature observations are marked for verification. No provided evidence establishes a causal species-specific residue or preserved pig DNA editing, DNA cleavage or TLR9 regulation. Cellular and animal studies should follow biochemical discrimination rather than substitute for it."
+}
