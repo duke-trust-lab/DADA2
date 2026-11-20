@@ -1,0 +1,16 @@
+{
+  "human": {
+    "firstPublicDate": "2002-04-16",
+    "lastAnnotationUpdateDate": "2026-09-02",
+    "lastSequenceUpdateDate": "2007-01-09",
+    "entryVersion": 186,
+    "sequenceVersion": 2
+  },
+  "pig": {
+    "firstPublicDate": "2002-04-16",
+    "lastAnnotationUpdateDate": "2026-09-02",
+    "lastSequenceUpdateDate": "2002-04-16",
+    "entryVersion": 100,
+    "sequenceVersion": 1
+  }
+}

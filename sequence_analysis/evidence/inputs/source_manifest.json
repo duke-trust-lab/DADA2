@@ -1,0 +1,50 @@
+[
+  {
+    "file": "human.fasta",
+    "url": "https://rest.uniprot.org/uniprotkb/Q9NZK5.fasta",
+    "sha256": "18b24aed29574fc708fede8eba2c0d10de61061a7d3ffd79bd186702ba31f2bf",
+    "retrieved_utc": "2026-11-03T02:36:15.401956+00:00"
+  },
+  {
+    "file": "human_annotation.json",
+    "url": "https://rest.uniprot.org/uniprotkb/Q9NZK5.json",
+    "sha256": "9f6160f02d6a87565f689d96666cb53cbd5d6151901f4eba8b188b3dd144175a",
+    "retrieved_utc": "2026-11-03T02:36:15.770872+00:00"
+  },
+  {
+    "file": "pig.fasta",
+    "url": "https://rest.uniprot.org/uniprotkb/P58780.fasta",
+    "sha256": "41d8ecf032b48611d2205c82370c419ddc62b0140357099d47c7db9e5b0c070a",
+    "retrieved_utc": "2026-11-03T02:36:16.199117+00:00"
+  },
+  {
+    "file": "pig_annotation.json",
+    "url": "https://rest.uniprot.org/uniprotkb/P58780.json",
+    "sha256": "54f4fbcfd5f3be3bde0763f4a29ca0f1e0682a976dc0d22e3f1f2d75a3e69c48",
+    "retrieved_utc": "2026-11-03T02:36:16.559086+00:00"
+  },
+  {
+    "file": "3lgd.cif",
+    "url": "https://files.rcsb.org/download/3LGD.cif",
+    "sha256": "5a7e0c3c73833bfccf0a5e6392e619a95e7727bfedf812b78b429ff477b4d71a",
+    "retrieved_utc": "2026-11-03T02:37:19.070129+00:00"
+  },
+  {
+    "file": "3lgd_sifts.xml.gz",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/msd/sifts/xml/3lgd.xml.gz",
+    "sha256": "07c745f34cf6a0b589106b0d73d99d0b517f7016c85bed31f045974ac503fe5a",
+    "retrieved_utc": "2026-11-03T02:37:36.854933+00:00"
+  },
+  {
+    "file": "3lgg.cif",
+    "url": "https://files.rcsb.org/download/3LGG.cif",
+    "sha256": "351600644d62db70b7a96a597485e90747426ca187caac0e05e591368d52111a",
+    "retrieved_utc": "2026-11-03T02:37:37.347679+00:00"
+  },
+  {
+    "file": "3lgg_sifts.xml.gz",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/msd/sifts/xml/3lgg.xml.gz",
+    "sha256": "ce22c7211d03e392f34f37b5a7f3e572defb0032cd6006ff66a33c1442bcb5e7",
+    "retrieved_utc": "2026-11-03T02:37:54.336263+00:00"
+  }
+]

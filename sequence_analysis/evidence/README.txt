@@ -1,0 +1,1 @@
+ADA2 weekly deliverable, 9 November 2026. Start with the executed Colab notebook. Inputs frozen 3 November 2026. All results descriptive. Tables use 1-based UniProt residue numbering; alignment_column is separate. Human experimental structure coordinates only. No pig structure prediction. See analysis_specification.json and source_manifest.json.

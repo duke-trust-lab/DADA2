@@ -1,0 +1,85 @@
+{
+  "repo_commit": "054513cf82598d5c2ad58202e249f59ec8eb59f2",
+  "review_date": "2026-11-18",
+  "existing_formal_runs": 6,
+  "existing_formal_hypotheses": 16,
+  "mapping_discrepancy_count": 7,
+  "mapping_discrepancy_positions": [
+    "151",
+    "152",
+    "153",
+    "154",
+    "155",
+    "509",
+    "510"
+  ],
+  "model_residue_identity_checks": 1936,
+  "sequence_inputs": [
+    {
+      "species": "human",
+      "sequence_equal": true
+    },
+    {
+      "species": "pig",
+      "sequence_equal": true
+    }
+  ],
+  "consistency_checks": [
+    [
+      "Identical shared context in all conditions",
+      true,
+      "1 distinct context hash(es)"
+    ],
+    [
+      "Identical system prompt in all conditions",
+      true,
+      "1 distinct hash(es)"
+    ],
+    [
+      "sequence package appears unchanged in A4",
+      true,
+      "verbatim substring check"
+    ],
+    [
+      "surface package appears unchanged in A4",
+      true,
+      "verbatim substring check"
+    ],
+    [
+      "structure package appears unchanged in A4",
+      true,
+      "verbatim substring check"
+    ],
+    [
+      "A0 input size (~3090 tokens by chars/4)",
+      true,
+      "limit 100000"
+    ],
+    [
+      "A1 input size (~5356 tokens by chars/4)",
+      true,
+      "limit 100000"
+    ],
+    [
+      "A2 input size (~3152 tokens by chars/4)",
+      true,
+      "limit 100000"
+    ],
+    [
+      "A3 input size (~5249 tokens by chars/4)",
+      true,
+      "limit 100000"
+    ],
+    [
+      "A4 input size (~7603 tokens by chars/4)",
+      true,
+      "limit 100000"
+    ]
+  ],
+  "A0_A3_input_hashes_preserved": true,
+  "A1_placeholder_removed": true,
+  "A4_remaining_placeholders": [
+    "surface"
+  ],
+  "new_model_calls": 0
+}

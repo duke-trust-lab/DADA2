@@ -1,0 +1,5 @@
+human_position,human_motif,pig_position,pig_motif,human_NXS_T,pig_NXS_T,mapping_stable
+127,NVT,122.0,NAT,True,True,True
+174,NVT,171.0,NVT,True,True,True
+185,NFT,182.0,TFT,True,False,True
+378,NTT,375.0,NST,True,True,True

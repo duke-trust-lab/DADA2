@@ -1,0 +1,20 @@
+type,start,end,description,evidence_codes,references,source
+Signal,1,29,,ECO:0000255,,UniProt Q9NZK5 frozen 2026-11-03
+Region,30,100,Dimerization,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+Region,127,185,PRB domain,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+Active site,359,359,Proton donor,ECO:0000305,,UniProt Q9NZK5 frozen 2026-11-03
+Active site,384,384,Proton acceptor,ECO:0000305,,UniProt Q9NZK5 frozen 2026-11-03
+Binding site,112,112,Zn(2+),not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+Binding site,114,114,Zn(2+),not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+Binding site,115,115,substrate,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+Binding site,204,211,substrate,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+Binding site,293,293,substrate,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+Binding site,326,326,substrate,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+Binding site,356,356,Zn(2+),not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+Binding site,441,441,Zn(2+),not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+Binding site,442,442,substrate,not supplied at feature level,,UniProt Q9NZK5 frozen 2026-11-03
+Glycosylation,127,127,N-linked (GlcNAc...) asparagine,ECO:0000269,PubMed:20147294,UniProt Q9NZK5 frozen 2026-11-03
+Glycosylation,174,174,N-linked (GlcNAc...) asparagine,ECO:0000269,PubMed:19159218,UniProt Q9NZK5 frozen 2026-11-03
+Glycosylation,185,185,N-linked (GlcNAc...) asparagine,ECO:0000269,PubMed:20147294,UniProt Q9NZK5 frozen 2026-11-03
+Glycosylation,378,378,N-linked (GlcNAc...) asparagine,ECO:0000269,PubMed:19159218; PubMed:20147294,UniProt Q9NZK5 frozen 2026-11-03
+Disulfide bond,137,159,,ECO:0000269,PubMed:20147294,UniProt Q9NZK5 frozen 2026-11-03
